@@ -1,0 +1,27 @@
+*{
+  text-decoration: none !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+#main-content{
+    width: 100vw !important;
+}
+
+/* Kill Google Translate top bar */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+
+/* Hide Google’s default dropdown */
+#google_translate_element {
+  display: none !important;
+}
+
+/* Hide powered-by text */
+.goog-logo-link,
+.goog-te-gadget {
+  display: none !important;
+}

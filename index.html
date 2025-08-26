@@ -1,13 +1,78 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Angelo Biotech Africa</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=GFS+Didot&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angelo Biotech Africa</title>
+  <style>
+    /* Hide ALL Google Translate chrome */
+    .goog-te-banner-frame,
+    .goog-te-balloon-frame,
+    #goog-gt-tt,
+    .goog-te-gadget,
+    .goog-te-gadget-icon,
+    .goog-logo-link,
+    #google_translate_element {
+      display: none !important;
+      visibility: hidden !important;
+      height: 0 !important;
+      width: 0 !important;
+      pointer-events: none !important;
+      opacity: 0 !important;
+    }
+
+    /* Google sometimes pushes the page down by setting top on html/body */
+    html,
+    body {
+      top: 0 !important;
+      position: static !important;
+    }
+  </style>
+</head>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: 'en',
+        includedLanguages: 'en,fr,zh-CN',
+        autoDisplay: false,
+      },
+      'google_translate_element'
+    );
+  }
+</script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- Hidden Google Translate mount point -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        includedLanguages: "en,fr,zh-CN",
+        autoDisplay: false,
+      },
+      "google_translate_element"
+    );
+  }
+</script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<body>
+  <div id="root"></div>
+  <!-- Hidden div just to mount Google widget -->
+  <div id="google_translate_element" style="display:none;"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

@@ -1,0 +1,423 @@
+[
+  {
+    "id": "prod_001",
+    "title": "NeuroBoost Daily",
+    "slug": "neuroboost-daily",
+    "category": "Nutritional Health",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "NeuroBoost Daily bottle front"},
+      {"src": "https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "NeuroBoost ingredients label"}
+    ],
+    "rating": 4.7,
+    "badges": ["Lab Tested", "Vegan"],
+    "short_description": "Clinically balanced formula for sustained cognitive energy.",
+    "ingredients": [
+      {"name": "Bacopa Monnieri", "amount": "300mg"},
+      {"name": "CDP-Choline", "amount": "250mg"}
+    ],
+    "goal": ["cognition", "focus"],
+    "format": "capsule",
+    "servings": 30,
+    "lab_reports": [{"title": "Third party test 2024", "url": "#"}],
+    "meta": {"safety_notes": "Avoid if pregnant", "certifications": ["GMP", "ISO"]}
+  },
+  {
+    "id": "prod_002",
+    "title": "Sleep Restore Complex",
+    "slug": "sleep-restore-complex",
+    "category": "Nutritional Health",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3683042/pexels-photo-3683042.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Sleep Restore Complex bottle"}
+    ],
+    "rating": 4.8,
+    "badges": ["Non-GMO", "Third-Party Tested"],
+    "short_description": "Natural sleep support with magnesium and botanicals.",
+    "ingredients": [
+      {"name": "Magnesium Glycinate", "amount": "400mg"},
+      {"name": "L-Theanine", "amount": "200mg"}
+    ],
+    "goal": ["sleep", "recovery"],
+    "format": "capsule",
+    "servings": 60,
+    "lab_reports": [{"title": "Purity analysis 2024", "url": "#"}],
+    "meta": {"safety_notes": "Take 30 minutes before bed", "certifications": ["GMP"]}
+  },
+  {
+    "id": "prod_003",
+    "title": "Longevity NAD+ Boost",
+    "slug": "longevity-nad-boost",
+    "category": "Nutritional Health",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3683040/pexels-photo-3683040.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "NAD+ Boost supplement bottle"}
+    ],
+    "rating": 4.6,
+    "badges": ["Clinically Studied", "Vegan"],
+    "short_description": "Advanced cellular energy and longevity support.",
+    "ingredients": [
+      {"name": "Nicotinamide Riboside", "amount": "300mg"},
+      {"name": "Resveratrol", "amount": "150mg"}
+    ],
+    "goal": ["longevity", "energy"],
+    "format": "capsule",
+    "servings": 30,
+    "lab_reports": [{"title": "Bioavailability study 2024", "url": "#"}],
+    "meta": {"safety_notes": "Consult physician if on medications", "certifications": ["GMP", "ISO"]}
+  },
+  {
+    "id": "prod_004",
+    "title": "Immune Defense Shield",
+    "slug": "immune-defense-shield",
+    "category": "Nutritional Health",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3683051/pexels-photo-3683051.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Immune Defense Shield bottle"}
+    ],
+    "rating": 4.5,
+    "badges": ["Organic", "Gluten-Free"],
+    "short_description": "Complete immune system support with adaptogenic herbs.",
+    "ingredients": [
+      {"name": "Elderberry Extract", "amount": "500mg"},
+      {"name": "Vitamin D3", "amount": "2000 IU"}
+    ],
+    "goal": ["immunity", "wellness"],
+    "format": "capsule",
+    "servings": 60,
+    "lab_reports": [{"title": "Potency verification 2024", "url": "#"}],
+    "meta": {"safety_notes": "Safe for daily use", "certifications": ["USDA Organic"]}
+  },
+  {
+    "id": "prod_005",
+    "title": "Digestive Enzyme Complex",
+    "slug": "digestive-enzyme-complex",
+    "category": "Nutritional Health",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3683049/pexels-photo-3683049.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Digestive Enzyme Complex bottle"}
+    ],
+    "rating": 4.7,
+    "badges": ["Vegetarian", "Lab Tested"],
+    "short_description": "Full-spectrum digestive support for optimal nutrition.",
+    "ingredients": [
+      {"name": "Amylase", "amount": "12000 DU"},
+      {"name": "Protease", "amount": "60000 HUT"}
+    ],
+    "goal": ["digestion", "wellness"],
+    "format": "capsule",
+    "servings": 90,
+    "lab_reports": [{"title": "Enzyme activity test 2024", "url": "#"}],
+    "meta": {"safety_notes": "Take with meals", "certifications": ["GMP"]}
+  },
+  {
+    "id": "prod_006",
+    "title": "All-Purpose Surface Cleaner",
+    "slug": "all-purpose-surface-cleaner",
+    "category": "Household",
+    "images": [
+      {"src": "https://images.pexels.com/photos/4099256/pexels-photo-4099256.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "All-Purpose Surface Cleaner bottle"}
+    ],
+    "rating": 4.4,
+    "badges": ["Plant-Based", "Non-Toxic"],
+    "short_description": "Safe, effective cleaning for all household surfaces.",
+    "ingredients": [
+      {"name": "Citrus Extract", "amount": "5%"},
+      {"name": "Plant Surfactants", "amount": "10%"}
+    ],
+    "goal": ["cleaning", "safety"],
+    "format": "spray",
+    "servings": 1,
+    "lab_reports": [{"title": "Safety data sheet", "url": "#"}],
+    "meta": {"safety_notes": "Safe around children and pets", "certifications": ["EPA Safer Choice"]}
+  },
+  {
+    "id": "prod_007",
+    "title": "Probiotic Disinfectant",
+    "slug": "probiotic-disinfectant",
+    "category": "Household",
+    "images": [
+      {"src": "https://images.pexels.com/photos/4099262/pexels-photo-4099262.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Probiotic Disinfectant spray bottle"}
+    ],
+    "rating": 4.6,
+    "badges": ["Eco-Friendly", "Antimicrobial"],
+    "short_description": "Revolutionary probiotic-based surface protection.",
+    "ingredients": [
+      {"name": "Beneficial Bacillus", "amount": "10^6 CFU/ml"},
+      {"name": "Natural Enzymes", "amount": "2%"}
+    ],
+    "goal": ["disinfection", "protection"],
+    "format": "spray",
+    "servings": 1,
+    "lab_reports": [{"title": "Microbial efficacy study", "url": "#"}],
+    "meta": {"safety_notes": "Creates protective biofilm", "certifications": ["Green Seal"]}
+  },
+  {
+    "id": "prod_008",
+    "title": "Laundry Detergent Pods",
+    "slug": "laundry-detergent-pods",
+    "category": "Household",
+    "images": [
+      {"src": "https://images.pexels.com/photos/6197119/pexels-photo-6197119.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Laundry Detergent Pods container"}
+    ],
+    "rating": 4.3,
+    "badges": ["Concentrated", "Plastic-Free"],
+    "short_description": "Ultra-concentrated, zero-waste laundry solution.",
+    "ingredients": [
+      {"name": "Plant Enzymes", "amount": "15%"},
+      {"name": "Coconut Oil Soap", "amount": "25%"}
+    ],
+    "goal": ["cleaning", "eco-friendly"],
+    "format": "pods",
+    "servings": 30,
+    "lab_reports": [{"title": "Biodegradability test", "url": "#"}],
+    "meta": {"safety_notes": "Keep away from children", "certifications": ["Cradle to Cradle"]}
+  },
+  {
+    "id": "prod_009",
+    "title": "Air Quality Monitor Pro",
+    "slug": "air-quality-monitor-pro",
+    "category": "Home Technology",
+    "images": [
+      {"src": "https://images.pexels.com/photos/4473792/pexels-photo-4473792.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Air Quality Monitor Pro device"}
+    ],
+    "rating": 4.8,
+    "badges": ["WiFi Enabled", "Real-Time"],
+    "short_description": "Professional-grade indoor air quality monitoring.",
+    "ingredients": [
+      {"name": "PM2.5 Sensor", "amount": "Laser-based"},
+      {"name": "VOC Detector", "amount": "Electrochemical"}
+    ],
+    "goal": ["air quality", "health monitoring"],
+    "format": "device",
+    "servings": 1,
+    "lab_reports": [{"title": "Sensor accuracy validation", "url": "#"}],
+    "meta": {"safety_notes": "Requires power adapter", "certifications": ["FCC", "CE"]}
+  },
+  {
+    "id": "prod_010",
+    "title": "Sleep Tracking Mat",
+    "slug": "sleep-tracking-mat",
+    "category": "Home Technology",
+    "images": [
+      {"src": "https://images.pexels.com/photos/6846325/pexels-photo-6846325.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Sleep Tracking Mat under mattress"}
+    ],
+    "rating": 4.5,
+    "badges": ["Contact-Free", "App Connected"],
+    "short_description": "Advanced sleep analytics without wearing devices.",
+    "ingredients": [
+      {"name": "Pressure Sensors", "amount": "Multi-zone"},
+      {"name": "Motion Detection", "amount": "High sensitivity"}
+    ],
+    "goal": ["sleep tracking", "health monitoring"],
+    "format": "device",
+    "servings": 1,
+    "lab_reports": [{"title": "Sleep accuracy study", "url": "#"}],
+    "meta": {"safety_notes": "Place under mattress", "certifications": ["FDA Listed"]}
+  },
+  {
+    "id": "prod_011",
+    "title": "Smart Water Filter",
+    "slug": "smart-water-filter",
+    "category": "Home Technology",
+    "images": [
+      {"src": "https://images.pexels.com/photos/4226894/pexels-photo-4226894.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Smart Water Filter system"}
+    ],
+    "rating": 4.7,
+    "badges": ["NSF Certified", "IoT Connected"],
+    "short_description": "Intelligent filtration with real-time water quality data.",
+    "ingredients": [
+      {"name": "Carbon Block", "amount": "5-micron"},
+      {"name": "TDS Sensor", "amount": "Continuous monitoring"}
+    ],
+    "goal": ["water quality", "health"],
+    "format": "device",
+    "servings": 1,
+    "lab_reports": [{"title": "Filtration performance test", "url": "#"}],
+    "meta": {"safety_notes": "Replace filters every 6 months", "certifications": ["NSF/ANSI 53"]}
+  },
+  {
+    "id": "prod_012",
+    "title": "Vitamin C Brightening Serum",
+    "slug": "vitamin-c-brightening-serum",
+    "category": "Beauty & Skin Care",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Vitamin C Brightening Serum bottle"}
+    ],
+    "rating": 4.6,
+    "badges": ["Dermatologist Tested", "Fragrance-Free"],
+    "short_description": "Clinically proven brightening with stable vitamin C.",
+    "ingredients": [
+      {"name": "L-Ascorbic Acid", "amount": "15%"},
+      {"name": "Vitamin E", "amount": "1%"}
+    ],
+    "goal": ["brightening", "anti-aging"],
+    "format": "serum",
+    "servings": 60,
+    "lab_reports": [{"title": "Clinical efficacy study", "url": "#"}],
+    "meta": {"safety_notes": "Use sunscreen during day", "certifications": ["Dermatologist Approved"]}
+  },
+  {
+    "id": "prod_013",
+    "title": "Retinol Renewal Night Cream",
+    "slug": "retinol-renewal-night-cream",
+    "category": "Beauty & Skin Care",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Retinol Renewal Night Cream jar"}
+    ],
+    "rating": 4.4,
+    "badges": ["Time-Released", "Peptide Complex"],
+    "short_description": "Gentle retinol system for overnight skin renewal.",
+    "ingredients": [
+      {"name": "Encapsulated Retinol", "amount": "0.5%"},
+      {"name": "Hyaluronic Acid", "amount": "2%"}
+    ],
+    "goal": ["anti-aging", "renewal"],
+    "format": "cream",
+    "servings": 60,
+    "lab_reports": [{"title": "Tolerance study", "url": "#"}],
+    "meta": {"safety_notes": "Start with 2-3 times per week", "certifications": ["Ophthalmologist Tested"]}
+  },
+  {
+    "id": "prod_014",
+    "title": "Hydrating Barrier Repair Gel",
+    "slug": "hydrating-barrier-repair-gel",
+    "category": "Beauty & Skin Care",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Hydrating Barrier Repair Gel pump bottle"}
+    ],
+    "rating": 4.8,
+    "badges": ["Sensitive Skin", "Ceramides"],
+    "short_description": "Advanced barrier repair with ceramide technology.",
+    "ingredients": [
+      {"name": "Ceramide Complex", "amount": "3%"},
+      {"name": "Niacinamide", "amount": "5%"}
+    ],
+    "goal": ["hydration", "barrier repair"],
+    "format": "gel",
+    "servings": 120,
+    "lab_reports": [{"title": "Barrier function test", "url": "#"}],
+    "meta": {"safety_notes": "Suitable for sensitive skin", "certifications": ["Hypoallergenic"]}
+  },
+  {
+    "id": "prod_015",
+    "title": "Collagen Boosting Eye Cream",
+    "slug": "collagen-boosting-eye-cream",
+    "category": "Beauty & Skin Care",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3762876/pexels-photo-3762876.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Collagen Boosting Eye Cream tube"}
+    ],
+    "rating": 4.5,
+    "badges": ["Peptides", "Caffeine"],
+    "short_description": "Targeted eye care with collagen-stimulating peptides.",
+    "ingredients": [
+      {"name": "Matrixyl 3000", "amount": "8%"},
+      {"name": "Caffeine", "amount": "2%"}
+    ],
+    "goal": ["eye care", "firming"],
+    "format": "cream",
+    "servings": 90,
+    "lab_reports": [{"title": "Eye area safety test", "url": "#"}],
+    "meta": {"safety_notes": "Avoid direct contact with eyes", "certifications": ["Ophthalmologist Tested"]}
+  },
+  {
+    "id": "prod_016",
+    "title": "Omega-3 Marine Complex",
+    "slug": "omega-3-marine-complex",
+    "category": "Nutritional Health",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3683044/pexels-photo-3683044.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Omega-3 Marine Complex softgels"}
+    ],
+    "rating": 4.6,
+    "badges": ["Molecularly Distilled", "Sustainable"],
+    "short_description": "Premium omega-3 from sustainably sourced fish oil.",
+    "ingredients": [
+      {"name": "EPA", "amount": "800mg"},
+      {"name": "DHA", "amount": "400mg"}
+    ],
+    "goal": ["heart health", "brain"],
+    "format": "softgel",
+    "servings": 60,
+    "lab_reports": [{"title": "Heavy metals analysis", "url": "#"}],
+    "meta": {"safety_notes": "Take with food", "certifications": ["IFOS 5-Star"]}
+  },
+  {
+    "id": "prod_017",
+    "title": "Kitchen Surface Sanitizer",
+    "slug": "kitchen-surface-sanitizer",
+    "category": "Household",
+    "images": [
+      {"src": "https://images.pexels.com/photos/4099263/pexels-photo-4099263.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Kitchen Surface Sanitizer spray"}
+    ],
+    "rating": 4.5,
+    "badges": ["Food-Safe", "Quick-Dry"],
+    "short_description": "Food-safe sanitization for kitchen and dining areas.",
+    "ingredients": [
+      {"name": "Ethanol", "amount": "70%"},
+      {"name": "Essential Oils", "amount": "1%"}
+    ],
+    "goal": ["sanitization", "food safety"],
+    "format": "spray",
+    "servings": 1,
+    "lab_reports": [{"title": "Antimicrobial efficacy", "url": "#"}],
+    "meta": {"safety_notes": "No rinse required on food surfaces", "certifications": ["NSF D2"]}
+  },
+  {
+    "id": "prod_018",
+    "title": "Circadian Light Therapy Lamp",
+    "slug": "circadian-light-therapy-lamp",
+    "category": "Home Technology",
+    "images": [
+      {"src": "https://images.pexels.com/photos/4473793/pexels-photo-4473793.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Circadian Light Therapy Lamp"}
+    ],
+    "rating": 4.7,
+    "badges": ["10000 Lux", "Timer Control"],
+    "short_description": "Clinical-grade light therapy for circadian rhythm support.",
+    "ingredients": [
+      {"name": "LED Array", "amount": "Full spectrum"},
+      {"name": "UV Filter", "amount": "100% blocking"}
+    ],
+    "goal": ["circadian health", "mood"],
+    "format": "device",
+    "servings": 1,
+    "lab_reports": [{"title": "Light intensity calibration", "url": "#"}],
+    "meta": {"safety_notes": "Use 30-60 minutes daily", "certifications": ["FDA Registered"]}
+  },
+  {
+    "id": "prod_019",
+    "title": "Anti-Aging Recovery Mask",
+    "slug": "anti-aging-recovery-mask",
+    "category": "Beauty & Skin Care",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3762877/pexels-photo-3762877.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Anti-Aging Recovery Mask jar"}
+    ],
+    "rating": 4.3,
+    "badges": ["Stem Cells", "Overnight"],
+    "short_description": "Intensive overnight treatment with plant stem cells.",
+    "ingredients": [
+      {"name": "Apple Stem Cells", "amount": "2%"},
+      {"name": "Growth Factors", "amount": "1%"}
+    ],
+    "goal": ["anti-aging", "recovery"],
+    "format": "mask",
+    "servings": 12,
+    "lab_reports": [{"title": "Anti-aging efficacy study", "url": "#"}],
+    "meta": {"safety_notes": "Use 2-3 times per week", "certifications": ["Cruelty-Free"]}
+  },
+  {
+    "id": "prod_020",
+    "title": "Adaptogen Energy Powder",
+    "slug": "adaptogen-energy-powder",
+    "category": "Nutritional Health",
+    "images": [
+      {"src": "https://images.pexels.com/photos/3683048/pexels-photo-3683048.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Adaptogen Energy Powder container"}
+    ],
+    "rating": 4.4,
+    "badges": ["Organic", "Stress Support"],
+    "short_description": "Adaptogenic herb blend for sustained energy and stress resilience.",
+    "ingredients": [
+      {"name": "Ashwagandha", "amount": "600mg"},
+      {"name": "Rhodiola Rosea", "amount": "300mg"}
+    ],
+    "goal": ["energy", "stress"],
+    "format": "powder",
+    "servings": 30,
+    "lab_reports": [{"title": "Adaptogen potency test", "url": "#"}],
+    "meta": {"safety_notes": "Mix with liquid", "certifications": ["USDA Organic"]}
+  }
+]

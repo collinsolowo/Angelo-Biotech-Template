@@ -1,0 +1,71 @@
+/* Design system variables - centralized color and spacing tokens */
+:root {
+  /* Colors */
+  --primary: #581c87;
+  --primary-light: #7c3aed;
+  --primary-dark: #3b0764;
+  --accent: #f59e0b;
+  --accent-dark: #d97706;
+  
+  /* Neutrals */
+  --white: #ffffff;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-600: #4b5563;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  --black: #000000;
+  
+  /* Semantic colors */
+  --bg-primary: var(--white);
+  --bg-secondary: var(--gray-50);
+  --text-primary: var(--gray-900);
+  --text-secondary: var(--gray-600);
+  --border: var(--gray-200);
+  
+  /* Spacing scale */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  
+  /* Typography */
+  --font-size-xs: clamp(0.75rem, 2.5vw, 0.875rem);
+  --font-size-sm: clamp(0.875rem, 3vw, 1rem);
+  --font-size-base: clamp(1rem, 3.2vw, 1.125rem);
+  --font-size-lg: clamp(1.125rem, 4vw, 1.25rem);
+  --font-size-xl: clamp(1.25rem, 4.5vw, 1.5rem);
+  --font-size-2xl: clamp(1.5rem, 5vw, 2rem);
+  --font-size-3xl: clamp(1.875rem, 6vw, 2.5rem);
+  --font-size-4xl: clamp(2.25rem, 7vw, 3rem);
+  
+  /* Breakpoints (for JS usage) */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Low memory device overrides */
+.reduced-bg * {
+  backdrop-filter: none !important;
+  filter: none !important;
+  transform: none !important;
+  animation: none !important;
+}
