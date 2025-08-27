@@ -870,7 +870,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  background-image: url('/public/hero-bg.jpg');
+  background-image: url('/public/hero-bg.jpeg');
   /* put image in public/assets/hero-bg.jpg */
   background-size: 100% 100%;
   background-position: center center;
