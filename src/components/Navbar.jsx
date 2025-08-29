@@ -14,7 +14,7 @@ const navItems = [
 
 // Mock translations for demo
 const TRANSLATIONS = {
-  en: { 
+  en: {
     code: 'en',
     home: 'Home',
     about: 'About',
@@ -22,7 +22,7 @@ const TRANSLATIONS = {
     services: 'Leadership',
     contact: 'Contact'
   },
-  fr: { 
+  fr: {
     code: 'fr',
     home: 'Accueil',
     about: 'À propos',
@@ -30,7 +30,7 @@ const TRANSLATIONS = {
     services: 'Direction',
     contact: 'Contact'
   },
-  zh: { 
+  zh: {
     code: 'zh-CN',
     home: '首页',
     about: '关于我们',
@@ -45,7 +45,7 @@ function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const [lang, setLang] = useState("en");
-  
+
   const menuRef = useRef(null);
   const langMenuRef = useRef(null);
   const navRef = useRef(null);
@@ -74,7 +74,7 @@ function Navbar() {
 
     document.addEventListener('mousedown', handleClickOutside);
     document.addEventListener('touchstart', handleClickOutside);
-    
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
       document.removeEventListener('touchstart', handleClickOutside);
@@ -126,9 +126,9 @@ function Navbar() {
         Skip to main content
       </a>
 
-      <nav 
+      <nav
         ref={navRef}
-        className={`hunch-navbar ${isScrolled ? 'scrolled' : ''}`} 
+        className={`hunch-navbar ${isScrolled ? 'scrolled' : ''}`}
         role="navigation"
         aria-label="Main navigation"
       >
@@ -137,10 +137,10 @@ function Navbar() {
           <div className="hunch-logo-section">
             <Link to="/" className="hunch-logo-link" aria-label="Angelo Biotech Africa - Home">
               <div className="hunch-logo-wrapper">
-                <img 
-                  src={NavLogo} 
-                  alt="Angelo Biotech Africa" 
-                  className="hunch-nav-logo" 
+                <img
+                  src={NavLogo}
+                  alt="Angelo Biotech Africa"
+                  className="hunch-nav-logo"
                 />
               </div>
             </Link>
@@ -154,7 +154,7 @@ function Navbar() {
                   <NavLink
                     to={item.to}
                     role="menuitem"
-                    className={({ isActive }) => 
+                    className={({ isActive }) =>
                       `hunch-nav-link ${isActive ? 'active' : ''}`
                     }
                     style={{ '--delay': `${index * 0.1}s` }}
@@ -168,7 +168,6 @@ function Navbar() {
 
             {/* CTA Buttons */}
             <div className="hunch-cta-section">
-
               <Link to="/contact" className="hunch-btn hunch-btn-primary">
                 Get Started
               </Link>
@@ -188,69 +187,53 @@ function Navbar() {
             </span>
           </button>
         </div>
+      </nav>
+      {/* Mobile Menu Overlay */}
+      <div className={`hunch-mobile-overlay ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(false)}></div>
 
-        {/* Mobile Menu Overlay */}
-        <div className={`hunch-mobile-overlay ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(false)}></div>
+      {/* Mobile Menu */}
+      <div
+        ref={menuRef}
+        className={`hunch-mobile-menu ${isOpen ? 'open' : ''}`}
+        id="mobile-menu"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="mobile-menu-title"
+      >
+        <div className="hunch-mobile-menu-inner">
+          <div className="hunch-mobile-menu-header">
+            <img
+              src={NavLogo}
+              alt="Angelo Biotech Africa"
+              className="hunch-nav-logo"
+            />
+            <div className="hunch-menu-divider"></div>
+          </div>
 
-        {/* Mobile Menu */}
-        <div 
-          ref={menuRef}
-          className={`hunch-mobile-menu ${isOpen ? 'open' : ''}`}
-          id="mobile-menu"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="mobile-menu-title"
-        >
-          <div className="hunch-mobile-menu-inner">
-            <div className="hunch-mobile-menu-header">
-              <h2 id="mobile-menu-title" className="hunch-menu-title">Navigation</h2>
-              <div className="hunch-menu-divider"></div>
-            </div>
+          <ul className="hunch-mobile-nav-links">
+            {navItems.map((item, index) => (
+              <li key={item.to} style={{ '--index': index }}>
+                <NavLink
+                  to={item.to}
+                  className={({ isActive }) =>
+                    `hunch-mobile-nav-link ${isActive ? 'active' : ''}`
+                  }
+                  onClick={() => setIsOpen(false)}
+                >
+                  <span className="hunch-mobile-link-text">{t[item.key]}</span>
+                  <ArrowRight size={16} className="hunch-mobile-link-arrow" />
+                </NavLink>
+              </li>
+            ))}
+          </ul>
 
-            <ul className="hunch-mobile-nav-links">
-              {navItems.map((item, index) => (
-                <li key={item.to} style={{ '--index': index }}>
-                  <NavLink
-                    to={item.to}
-                    className={({ isActive }) => 
-                      `hunch-mobile-nav-link ${isActive ? 'active' : ''}`
-                    }
-                    onClick={() => setIsOpen(false)}
-                  >
-                    <span className="hunch-mobile-link-text">{t[item.key]}</span>
-                    <ArrowRight size={16} className="hunch-mobile-link-arrow" />
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
-
-            <div className="hunch-mobile-cta-section">
-              <Link to="/track" className="hunch-btn hunch-btn-secondary hunch-btn-full" onClick={() => setIsOpen(false)}>
-                Track Order
-              </Link>
-              <Link to="/contact" className="hunch-btn hunch-btn-primary hunch-btn-full" onClick={() => setIsOpen(false)}>
-                Get Started
-              </Link>
-            </div>
-
-            <div className="hunch-mobile-lang-section">
-              <h3 className="hunch-mobile-lang-title">Language</h3>
-              <div className="hunch-mobile-lang-grid">
-                {Object.entries(TRANSLATIONS).map(([code, translation]) => (
-                  <button
-                    key={code}
-                    className={`hunch-mobile-lang-btn ${lang === code ? 'active' : ''}`}
-                    onClick={() => selectLanguage(code)}
-                  >
-                    <span>{code === 'en' ? 'EN' : code === 'fr' ? 'FR' : 'CN'}</span>
-                    {lang === code && <div className="hunch-mobile-lang-indicator"></div>}
-                  </button>
-                ))}
-              </div>
-            </div>
+          <div className="hunch-mobile-cta-section">
+            <Link to="/contact" className="hunch-btn hunch-btn-primary hunch-btn-full" onClick={() => setIsOpen(false)}>
+              Get Started
+            </Link>
           </div>
         </div>
-      </nav>
+      </div>
     </>
   );
 }

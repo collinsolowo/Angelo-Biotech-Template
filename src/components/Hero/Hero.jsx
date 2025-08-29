@@ -1,7 +1,54 @@
 import React from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import './Hero.css';
 
 const Hero = () => {
+  const [currentPillar, setCurrentPillar] = React.useState(0);
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  const pillars = [
+    {
+      icon: '🌿',
+      title: 'For Consumers',
+      subtitle: 'Premium Organic Wellness',
+      description: 'Discover premium, science-backed organic products designed to boost immunity, champion the course of anti-aging, enhance vitality, and support long-term wellness.',
+      cta: 'Live healthy. Live naturally.'
+    },
+    {
+      icon: '💼',
+      title: 'For Distributors',
+      subtitle: 'Build Sustainable Income',
+      description: 'Join our fast-growing network across Africa. Earn while promoting wellness. With top-quality products, strong brand support, and real earning potential — this is your gateway to sustainable income.',
+      cta: 'Distribute wellness. Build wealth.'
+    },
+    {
+      icon: '📈',
+      title: 'For Investors',
+      subtitle: 'Future of African Biotech',
+      description: 'Be part of the future of health and biotech in Africa. Angelo Biotech is scaling rapidly across borders. Invest in a brand built on trust, results, and regional relevance.',
+      cta: 'Invest in health. Grow with us.'
+    }
+  ];
+
+  React.useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const nextPillar = () => {
+    setCurrentPillar((prev) => (prev + 1) % pillars.length);
+  };
+
+  const prevPillar = () => {
+    setCurrentPillar((prev) => (prev - 1 + pillars.length) % pillars.length);
+  };
+
   return (
     <section id="home" className="hero" role="banner">
       {/* Background Elements */}
@@ -17,44 +64,7 @@ const Hero = () => {
           {/* Brand Section */}
           <div className="hero__brand">
             <h1 className="hero__logo" id="animated-logo">
-              <span className="hero__logo-text">
-                <span className="hero__logo-letter" style={{ '--delay': '0s' }}>W</span>
-                <span className="hero__logo-letter" style={{ '--delay': '0.1s' }}>e</span>
-                <span className="hero__logo-letter" style={{ '--delay': '0.2s' }}>l</span>
-                <span className="hero__logo-letter" style={{ '--delay': '0.3s' }}>c</span>
-                <span className="hero__logo-letter" style={{ '--delay': '0.4s' }}>o</span>
-                <span className="hero__logo-letter" style={{ '--delay': '0.5s' }}>m</span>
-                <span className="hero__logo-letter" style={{ '--delay': '0.6s' }}>e</span>
-                <span className="hero__logo-space"> </span>
-
-                <span className="hero__logo-letter" style={{ '--delay': '0.7s' }}>t</span>
-                <span className="hero__logo-letter" style={{ '--delay': '0.8s' }}>o</span>
-                <span className="hero__logo-space"> </span>
-
-                <span className="hero__logo-letter" style={{ '--delay': '0.9s' }}>A</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.0s' }}>n</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.1s' }}>g</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.2s' }}>e</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.3s' }}>l</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.4s' }}>o</span>
-                <span className="hero__logo-space"> </span>
-
-                <span className="hero__logo-letter" style={{ '--delay': '1.5s' }}>B</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.6s' }}>i</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.7s' }}>o</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.8s' }}>t</span>
-                <span className="hero__logo-letter" style={{ '--delay': '1.9s' }}>e</span>
-                <span className="hero__logo-letter" style={{ '--delay': '2.0s' }}>c</span>
-                <span className="hero__logo-letter" style={{ '--delay': '2.1s' }}>h</span>
-                <span className="hero__logo-space"> </span>
-
-                <span className="hero__logo-letter" style={{ '--delay': '2.2s' }}>A</span>
-                <span className="hero__logo-letter" style={{ '--delay': '2.3s' }}>f</span>
-                <span className="hero__logo-letter" style={{ '--delay': '2.4s' }}>r</span>
-                <span className="hero__logo-letter" style={{ '--delay': '2.5s' }}>i</span>
-                <span className="hero__logo-letter" style={{ '--delay': '2.6s' }}>c</span>
-                <span className="hero__logo-letter" style={{ '--delay': '2.7s' }}>a</span>
-              </span>
+              <p className="hero-text">Welcome to Angelo Biotech Africa </p>
               <span className="hero__logo-dot" aria-hidden="true"></span>
             </h1>
 
@@ -68,44 +78,67 @@ const Hero = () => {
           </div>
 
           {/* Three Pillars */}
-          <div className="hero__pillars">
-            {/* For Consumers */}
-            <div className="hero__pillar">
-              <div className="hero__pillar-icon" role="img" aria-label="Wellness icon">🌿</div>
-              <h2 className="hero__pillar-title">For Consumers</h2>
-              <p className="hero__pillar-subtitle">Premium Organic Wellness</p>
-              <p className="hero__pillar-description">
-                Discover premium, science-backed organic products designed to boost immunity,
-                champion the course of anti-aging, enhance vitality, and support long-term wellness.
-              </p>
-              <p className="hero__pillar-cta">Live healthy. Live naturally.</p>
-            </div>
+          {isMobile ? (
+            /* Mobile Carousel */
+            <div className="hero__pillars-carousel">
+              <div className="hero__carousel-container">
+                <div className="hero__pillar hero__pillar--active">
+                  <div className="hero__pillar-icon" role="img" aria-label={`${pillars[currentPillar].title} icon`}>
+                    {pillars[currentPillar].icon}
+                  </div>
+                  <h2 className="hero__pillar-title">{pillars[currentPillar].title}</h2>
+                  <p className="hero__pillar-subtitle">{pillars[currentPillar].subtitle}</p>
+                  <p className="hero__pillar-description">{pillars[currentPillar].description}</p>
+                  <p className="hero__pillar-cta">{pillars[currentPillar].cta}</p>
+                </div>
+              </div>
 
-            {/* For Distributors */}
-            <div className="hero__pillar">
-              <div className="hero__pillar-icon" role="img" aria-label="Business icon">💼</div>
-              <h2 className="hero__pillar-title">For Distributors</h2>
-              <p className="hero__pillar-subtitle">Build Sustainable Income</p>
-              <p className="hero__pillar-description">
-                Join our fast-growing network across Africa. Earn while promoting wellness.
-                With top-quality products, strong brand support, and real earning potential —
-                this is your gateway to sustainable income.
-              </p>
-              <p className="hero__pillar-cta">Distribute wellness. Build wealth.</p>
-            </div>
+              {/* Carousel Controls */}
+              <div className="hero__carousel-controls">
+                <button
+                  className="hero__carousel-btn hero__carousel-btn--prev"
+                  onClick={prevPillar}
+                  aria-label="Previous pillar"
+                >
+                  <ChevronLeft size={20} />
+                </button>
 
-            {/* For Investors */}
-            <div className="hero__pillar">
-              <div className="hero__pillar-icon" role="img" aria-label="Growth icon">📈</div>
-              <h2 className="hero__pillar-title">For Investors</h2>
-              <p className="hero__pillar-subtitle">Future of African Biotech</p>
-              <p className="hero__pillar-description">
-                Be part of the future of health and biotech in Africa. Angelo Biotech is scaling
-                rapidly across borders. Invest in a brand built on trust, results, and regional relevance.
-              </p>
-              <p className="hero__pillar-cta">Invest in health. Grow with us.</p>
+                <div className="hero__carousel-indicators">
+                  {pillars.map((_, index) => (
+                    <button
+                      key={index}
+                      className={`hero__carousel-indicator ${index === currentPillar ? 'active' : ''}`}
+                      onClick={() => setCurrentPillar(index)}
+                      aria-label={`Go to pillar ${index + 1}`}
+                    />
+                  ))}
+                </div>
+
+                <button
+                  className="hero__carousel-btn hero__carousel-btn--next"
+                  onClick={nextPillar}
+                  aria-label="Next pillar"
+                >
+                  <ChevronRight size={20} />
+                </button>
+              </div>
             </div>
-          </div>
+          ) : (
+            /* Desktop Grid */
+            <div className="hero__pillars">
+              {pillars.map((pillar, index) => (
+                <div key={index} className="hero__pillar">
+                  <div className="hero__pillar-icon" role="img" aria-label={`${pillar.title} icon`}>
+                    {pillar.icon}
+                  </div>
+                  <h2 className="hero__pillar-title">{pillar.title}</h2>
+                  <p className="hero__pillar-subtitle">{pillar.subtitle}</p>
+                  <p className="hero__pillar-description">{pillar.description}</p>
+                  <p className="hero__pillar-cta">{pillar.cta}</p>
+                </div>
+              ))}
+            </div>
+          )}
 
           {/* Call to Action */}
           <div className="hero__cta-section">

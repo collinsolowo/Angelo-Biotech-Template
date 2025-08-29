@@ -1,423 +1,657 @@
 [
   {
-    "id": "prod_001",
-    "title": "NeuroBoost Daily",
-    "slug": "neuroboost-daily",
-    "category": "Nutritional Health",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "NeuroBoost Daily bottle front"},
-      {"src": "https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "NeuroBoost ingredients label"}
+    "id": "hydrogen-water-cup",
+    "title": "H2O Hydrogen Rich Water Cup",
+    "category": "Supplement Products",
+    "description": "Advanced hydrogen water generator with PEM technology for cellular health and anti-aging benefits.",
+    "longDescription": "Revolutionary hydrogen water cup that uses advanced PEM technology to create hydrogen-rich water with concentrations of 3000-5000ppb. Essential for cellular health, anti-aging, and overall wellness.",
+    "keyBenefits": [
+      "Beauty & Anti-aging: nourishing whole body, repairing skin",
+      "Metabolism function: Clear free radicals, Anti-aging", 
+      "Prevent Obesity: neutralize the fat in the body",
+      "Regulate Intestines & Stomach: improve intestinal function",
+      "Regulating Four Highs: blood glucose, pressure, lipid and uric acid",
+      "Improve Immunity: balance immune system function",
+      "Anti-inflammation: improve arthritis, dermatitis, eczema"
     ],
-    "rating": 4.7,
-    "badges": ["Lab Tested", "Vegan"],
-    "short_description": "Clinically balanced formula for sustained cognitive energy.",
-    "ingredients": [
-      {"name": "Bacopa Monnieri", "amount": "300mg"},
-      {"name": "CDP-Choline", "amount": "250mg"}
+    "specifications": {
+      "volume": "270ml",
+      "hydrogenConcentration": "3000-5000ppb",
+      "electrolysisTimes": "≥10 times per charge",
+      "chargingTime": "3-4 hours",
+      "material": "Food grade PC material"
+    },
+    "features": [
+      "High hydrogen production",
+      "Rapid Electrolysis (6 mins)",
+      "High purity of hydrogen production (99.9%)",
+      "PEM hydrogen production technology",
+      "Digital display, smart design",
+      "Waterproof USB charging"
     ],
-    "goal": ["cognition", "focus"],
-    "format": "capsule",
-    "servings": 30,
-    "lab_reports": [{"title": "Third party test 2024", "url": "#"}],
-    "meta": {"safety_notes": "Avoid if pregnant", "certifications": ["GMP", "ISO"]}
-  },
-  {
-    "id": "prod_002",
-    "title": "Sleep Restore Complex",
-    "slug": "sleep-restore-complex",
-    "category": "Nutritional Health",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3683042/pexels-photo-3683042.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Sleep Restore Complex bottle"}
-    ],
-    "rating": 4.8,
-    "badges": ["Non-GMO", "Third-Party Tested"],
-    "short_description": "Natural sleep support with magnesium and botanicals.",
-    "ingredients": [
-      {"name": "Magnesium Glycinate", "amount": "400mg"},
-      {"name": "L-Theanine", "amount": "200mg"}
-    ],
-    "goal": ["sleep", "recovery"],
-    "format": "capsule",
-    "servings": 60,
-    "lab_reports": [{"title": "Purity analysis 2024", "url": "#"}],
-    "meta": {"safety_notes": "Take 30 minutes before bed", "certifications": ["GMP"]}
-  },
-  {
-    "id": "prod_003",
-    "title": "Longevity NAD+ Boost",
-    "slug": "longevity-nad-boost",
-    "category": "Nutritional Health",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3683040/pexels-photo-3683040.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "NAD+ Boost supplement bottle"}
-    ],
-    "rating": 4.6,
-    "badges": ["Clinically Studied", "Vegan"],
-    "short_description": "Advanced cellular energy and longevity support.",
-    "ingredients": [
-      {"name": "Nicotinamide Riboside", "amount": "300mg"},
-      {"name": "Resveratrol", "amount": "150mg"}
-    ],
-    "goal": ["longevity", "energy"],
-    "format": "capsule",
-    "servings": 30,
-    "lab_reports": [{"title": "Bioavailability study 2024", "url": "#"}],
-    "meta": {"safety_notes": "Consult physician if on medications", "certifications": ["GMP", "ISO"]}
-  },
-  {
-    "id": "prod_004",
-    "title": "Immune Defense Shield",
-    "slug": "immune-defense-shield",
-    "category": "Nutritional Health",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3683051/pexels-photo-3683051.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Immune Defense Shield bottle"}
-    ],
-    "rating": 4.5,
-    "badges": ["Organic", "Gluten-Free"],
-    "short_description": "Complete immune system support with adaptogenic herbs.",
-    "ingredients": [
-      {"name": "Elderberry Extract", "amount": "500mg"},
-      {"name": "Vitamin D3", "amount": "2000 IU"}
-    ],
-    "goal": ["immunity", "wellness"],
-    "format": "capsule",
-    "servings": 60,
-    "lab_reports": [{"title": "Potency verification 2024", "url": "#"}],
-    "meta": {"safety_notes": "Safe for daily use", "certifications": ["USDA Organic"]}
-  },
-  {
-    "id": "prod_005",
-    "title": "Digestive Enzyme Complex",
-    "slug": "digestive-enzyme-complex",
-    "category": "Nutritional Health",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3683049/pexels-photo-3683049.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Digestive Enzyme Complex bottle"}
-    ],
-    "rating": 4.7,
-    "badges": ["Vegetarian", "Lab Tested"],
-    "short_description": "Full-spectrum digestive support for optimal nutrition.",
-    "ingredients": [
-      {"name": "Amylase", "amount": "12000 DU"},
-      {"name": "Protease", "amount": "60000 HUT"}
-    ],
-    "goal": ["digestion", "wellness"],
-    "format": "capsule",
-    "servings": 90,
-    "lab_reports": [{"title": "Enzyme activity test 2024", "url": "#"}],
-    "meta": {"safety_notes": "Take with meals", "certifications": ["GMP"]}
-  },
-  {
-    "id": "prod_006",
-    "title": "All-Purpose Surface Cleaner",
-    "slug": "all-purpose-surface-cleaner",
-    "category": "Household",
-    "images": [
-      {"src": "https://images.pexels.com/photos/4099256/pexels-photo-4099256.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "All-Purpose Surface Cleaner bottle"}
-    ],
-    "rating": 4.4,
-    "badges": ["Plant-Based", "Non-Toxic"],
-    "short_description": "Safe, effective cleaning for all household surfaces.",
-    "ingredients": [
-      {"name": "Citrus Extract", "amount": "5%"},
-      {"name": "Plant Surfactants", "amount": "10%"}
-    ],
-    "goal": ["cleaning", "safety"],
-    "format": "spray",
-    "servings": 1,
-    "lab_reports": [{"title": "Safety data sheet", "url": "#"}],
-    "meta": {"safety_notes": "Safe around children and pets", "certifications": ["EPA Safer Choice"]}
-  },
-  {
-    "id": "prod_007",
-    "title": "Probiotic Disinfectant",
-    "slug": "probiotic-disinfectant",
-    "category": "Household",
-    "images": [
-      {"src": "https://images.pexels.com/photos/4099262/pexels-photo-4099262.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Probiotic Disinfectant spray bottle"}
-    ],
-    "rating": 4.6,
-    "badges": ["Eco-Friendly", "Antimicrobial"],
-    "short_description": "Revolutionary probiotic-based surface protection.",
-    "ingredients": [
-      {"name": "Beneficial Bacillus", "amount": "10^6 CFU/ml"},
-      {"name": "Natural Enzymes", "amount": "2%"}
-    ],
-    "goal": ["disinfection", "protection"],
-    "format": "spray",
-    "servings": 1,
-    "lab_reports": [{"title": "Microbial efficacy study", "url": "#"}],
-    "meta": {"safety_notes": "Creates protective biofilm", "certifications": ["Green Seal"]}
-  },
-  {
-    "id": "prod_008",
-    "title": "Laundry Detergent Pods",
-    "slug": "laundry-detergent-pods",
-    "category": "Household",
-    "images": [
-      {"src": "https://images.pexels.com/photos/6197119/pexels-photo-6197119.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Laundry Detergent Pods container"}
-    ],
-    "rating": 4.3,
-    "badges": ["Concentrated", "Plastic-Free"],
-    "short_description": "Ultra-concentrated, zero-waste laundry solution.",
-    "ingredients": [
-      {"name": "Plant Enzymes", "amount": "15%"},
-      {"name": "Coconut Oil Soap", "amount": "25%"}
-    ],
-    "goal": ["cleaning", "eco-friendly"],
-    "format": "pods",
-    "servings": 30,
-    "lab_reports": [{"title": "Biodegradability test", "url": "#"}],
-    "meta": {"safety_notes": "Keep away from children", "certifications": ["Cradle to Cradle"]}
-  },
-  {
-    "id": "prod_009",
-    "title": "Air Quality Monitor Pro",
-    "slug": "air-quality-monitor-pro",
-    "category": "Home Technology",
-    "images": [
-      {"src": "https://images.pexels.com/photos/4473792/pexels-photo-4473792.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Air Quality Monitor Pro device"}
-    ],
-    "rating": 4.8,
-    "badges": ["WiFi Enabled", "Real-Time"],
-    "short_description": "Professional-grade indoor air quality monitoring.",
-    "ingredients": [
-      {"name": "PM2.5 Sensor", "amount": "Laser-based"},
-      {"name": "VOC Detector", "amount": "Electrochemical"}
-    ],
-    "goal": ["air quality", "health monitoring"],
+    "usage": "Drink 1.5L hydrogen-rich water daily at different times for different functions. Equivalent antioxidant value of 756 bananas, 516 apples, 38 carrots, or 3.7 pumpkins.",
+    "image": "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg",
+    "video": "/Angelo videos/Hydrogen Water Cup Pic.mp4",
+    "goal": ["longevity", "anti-aging", "cellular health", "immunity"],
     "format": "device",
-    "servings": 1,
-    "lab_reports": [{"title": "Sensor accuracy validation", "url": "#"}],
-    "meta": {"safety_notes": "Requires power adapter", "certifications": ["FCC", "CE"]}
+    "badges": ["Third-Party Tested", "FDA Approved", "Eco-Friendly"]
   },
   {
-    "id": "prod_010",
-    "title": "Sleep Tracking Mat",
-    "slug": "sleep-tracking-mat",
-    "category": "Home Technology",
-    "images": [
-      {"src": "https://images.pexels.com/photos/6846325/pexels-photo-6846325.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Sleep Tracking Mat under mattress"}
+    "id": "alovera-capsule",
+    "title": "Alovera Health Capsule",
+    "category": "Supplement Products", 
+    "description": "Premium aloe vera extract capsules for digestive health and natural detoxification.",
+    "longDescription": "Pure aloe vera extract in convenient capsule form, providing powerful digestive support and natural detoxification benefits for optimal gut health.",
+    "keyBenefits": [
+      "Digestive Health: Soothes and heals digestive tract",
+      "Natural Detox: Cleanses toxins from the body",
+      "Anti-inflammatory: Reduces internal inflammation",
+      "Immune Support: Boosts natural immunity",
+      "Skin Health: Promotes healthy skin from within",
+      "Nutrient Absorption: Enhances vitamin and mineral uptake"
     ],
-    "rating": 4.5,
-    "badges": ["Contact-Free", "App Connected"],
-    "short_description": "Advanced sleep analytics without wearing devices.",
-    "ingredients": [
-      {"name": "Pressure Sensors", "amount": "Multi-zone"},
-      {"name": "Motion Detection", "amount": "High sensitivity"}
+    "specifications": {
+      "servingSize": "2 capsules daily",
+      "concentration": "500mg pure aloe extract",
+      "capsuleCount": "60 capsules per bottle",
+      "duration": "30-day supply"
+    },
+    "features": [
+      "100% Pure Aloe Vera Extract",
+      "Vegetarian Capsules",
+      "No Artificial Additives",
+      "Third-Party Tested",
+      "GMP Certified Facility",
+      "Easy to Swallow"
     ],
-    "goal": ["sleep tracking", "health monitoring"],
+    "usage": "Take 2 capsules daily with meals for optimal digestive health and detoxification support.",
+    "image": "https://images.pexels.com/photos/3683107/pexels-photo-3683107.jpeg",
+    "video": "/Angelo videos/Alovera Capsule.mp4",
+    "goal": ["digestive health", "detox", "immunity", "skin health"],
+    "format": "capsule",
+    "badges": ["Vegan", "Third-Party Tested", "GMP Certified"]
+  },
+  {
+    "id": "anion-blue-ray-glasses",
+    "title": "Anion Anti Blue-Ray Glasses",
+    "category": "Daily Care",
+    "description": "Advanced eye protection glasses with negative ion technology and blue light filtering.",
+    "longDescription": "Protect your eyes from digital strain with revolutionary anion anti blue-ray glasses featuring tourmaline stone ingredients and negative oxygen ion protective layer.",
+    "keyBenefits": [
+      "Eye Protection: Effectively remove free radicals to prevent oxidation",
+      "Blue Light Blocking: Filters harmful blue light from screens",
+      "Negative Ion Technology: Protective layer prevents cell oxidation",
+      "Microcirculation: Tourmaline stone increases eye blood flow",
+      "UV Protection: Blocks ultraviolet rays and radiation",
+      "Fatigue Reduction: Prevents eye strain and myopia"
+    ],
+    "specifications": {
+      "material": "Tourmaline stone infused frame",
+      "protection": "UV and blue light filtering",
+      "technology": "Negative oxygen ion generation",
+      "weight": "Lightweight design"
+    },
+    "features": [
+      "Anti-blue light protection",
+      "Negative ion generation", 
+      "Tourmaline stone technology",
+      "Lightweight design",
+      "Comfortable fit",
+      "Stylish appearance"
+    ],
+    "usage": "Wear during computer work, studying, or any screen time to protect eyes and reduce digital fatigue.",
+    "image": "https://images.pexels.com/photos/947885/pexels-photo-947885.jpeg",
+    "video": "/Angelo videos/Anion Antiblueray Spec.mp4",
+    "goal": ["eye health", "digital wellness", "focus"],
     "format": "device",
-    "servings": 1,
-    "lab_reports": [{"title": "Sleep accuracy study", "url": "#"}],
-    "meta": {"safety_notes": "Place under mattress", "certifications": ["FDA Listed"]}
+    "badges": ["Clinically Tested", "Lightweight", "Stylish"]
   },
   {
-    "id": "prod_011",
-    "title": "Smart Water Filter",
-    "slug": "smart-water-filter",
-    "category": "Home Technology",
-    "images": [
-      {"src": "https://images.pexels.com/photos/4226894/pexels-photo-4226894.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Smart Water Filter system"}
+    "id": "balance-cream",
+    "title": "Balance Healing Cream",
+    "category": "Daily Care",
+    "description": "Multi-purpose healing cream for skin repair, inflammation reduction, and daily skin care.",
+    "longDescription": "Advanced healing cream formulated with natural ingredients to provide comprehensive skin care, repair damaged skin, and maintain healthy skin barrier function.",
+    "keyBenefits": [
+      "Skin Repair: Accelerates healing of cuts, burns, and irritation",
+      "Anti-inflammatory: Reduces redness and swelling",
+      "Moisturizing: Deep hydration for dry and cracked skin",
+      "Barrier Protection: Strengthens skin's natural defense",
+      "Soothing Relief: Calms irritated and sensitive skin",
+      "Daily Care: Suitable for everyday skin maintenance"
     ],
-    "rating": 4.7,
-    "badges": ["NSF Certified", "IoT Connected"],
-    "short_description": "Intelligent filtration with real-time water quality data.",
-    "ingredients": [
-      {"name": "Carbon Block", "amount": "5-micron"},
-      {"name": "TDS Sensor", "amount": "Continuous monitoring"}
+    "specifications": {
+      "weight": "50g per tube",
+      "texture": "Non-greasy, fast-absorbing",
+      "formula": "Hypoallergenic and dermatologist tested"
+    },
+    "features": [
+      "Natural healing ingredients",
+      "Fast absorption formula",
+      "Non-greasy texture",
+      "Suitable for all skin types",
+      "Fragrance-free option",
+      "Portable tube design"
     ],
-    "goal": ["water quality", "health"],
-    "format": "device",
-    "servings": 1,
-    "lab_reports": [{"title": "Filtration performance test", "url": "#"}],
-    "meta": {"safety_notes": "Replace filters every 6 months", "certifications": ["NSF/ANSI 53"]}
+    "usage": "Apply to affected areas 2-3 times daily or as needed for skin repair and daily care.",
+    "image": "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg",
+    "video": "/Angelo videos/Balance Cream.mp4",
+    "goal": ["skin health", "healing", "daily care"],
+    "format": "topical",
+    "badges": ["Hypoallergenic", "Dermatologist Tested", "Natural"]
   },
   {
-    "id": "prod_012",
-    "title": "Vitamin C Brightening Serum",
-    "slug": "vitamin-c-brightening-serum",
-    "category": "Beauty & Skin Care",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Vitamin C Brightening Serum bottle"}
+    "id": "bamboo-vinegar-patch",
+    "title": "Bamboo Vinegar Detox Patch",
+    "category": "Detox & Sanitary",
+    "description": "Natural detox foot patches with bamboo vinegar for toxin removal and improved circulation.",
+    "longDescription": "Traditional bamboo vinegar foot patches designed to draw out toxins through the feet while you sleep, promoting better circulation and overall wellness.",
+    "keyBenefits": [
+      "Toxin Removal: Draws out impurities through foot reflexology points",
+      "Improved Circulation: Enhances blood flow in feet and legs",
+      "Better Sleep: Promotes relaxation and restful sleep",
+      "Natural Ingredients: Made with pure bamboo vinegar",
+      "Easy Application: Simple overnight treatment",
+      "Visible Results: See toxin removal through patch discoloration"
     ],
-    "rating": 4.6,
-    "badges": ["Dermatologist Tested", "Fragrance-Free"],
-    "short_description": "Clinically proven brightening with stable vitamin C.",
-    "ingredients": [
-      {"name": "L-Ascorbic Acid", "amount": "15%"},
-      {"name": "Vitamin E", "amount": "1%"}
+    "specifications": {
+      "patchCount": "10 patches per box",
+      "application": "Overnight foot treatment",
+      "ingredients": "Bamboo vinegar, tourmaline, wood vinegar"
+    },
+    "features": [
+      "100% Natural bamboo vinegar",
+      "Adhesive foot patches",
+      "Overnight detox treatment",
+      "Reflexology point targeting",
+      "Visible toxin extraction",
+      "Comfortable wear"
     ],
-    "goal": ["brightening", "anti-aging"],
-    "format": "serum",
-    "servings": 60,
-    "lab_reports": [{"title": "Clinical efficacy study", "url": "#"}],
-    "meta": {"safety_notes": "Use sunscreen during day", "certifications": ["Dermatologist Approved"]}
+    "usage": "Apply to clean feet before bedtime, remove in the morning. Use 2-3 times per week for optimal detox benefits.",
+    "image": "https://images.pexels.com/photos/6621374/pexels-photo-6621374.jpeg",
+    "video": "/Angelo videos/Bamboo Vinegar Patch.mp4",
+    "goal": ["detox", "circulation", "sleep", "wellness"],
+    "format": "topical",
+    "badges": ["Natural", "Traditional Medicine", "Overnight Treatment"]
   },
   {
-    "id": "prod_013",
-    "title": "Retinol Renewal Night Cream",
-    "slug": "retinol-renewal-night-cream",
-    "category": "Beauty & Skin Care",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Retinol Renewal Night Cream jar"}
+    "id": "bovine-bone-collagen",
+    "title": "Bovine Bone Collagen Supplement",
+    "category": "Supplement Products",
+    "description": "Premium bovine bone collagen for joint health, skin elasticity, and bone strength.",
+    "longDescription": "High-quality bovine bone collagen supplement providing essential amino acids for joint health, skin elasticity, and bone strength support.",
+    "keyBenefits": [
+      "Joint Health: Supports cartilage repair and flexibility",
+      "Skin Elasticity: Promotes youthful, firm skin",
+      "Bone Strength: Enhances bone density and structure",
+      "Muscle Recovery: Aids in post-workout recovery",
+      "Hair & Nails: Strengthens hair and nail growth",
+      "Digestive Health: Supports gut lining integrity"
     ],
-    "rating": 4.4,
-    "badges": ["Time-Released", "Peptide Complex"],
-    "short_description": "Gentle retinol system for overnight skin renewal.",
-    "ingredients": [
-      {"name": "Encapsulated Retinol", "amount": "0.5%"},
-      {"name": "Hyaluronic Acid", "amount": "2%"}
+    "specifications": {
+      "servingSize": "1 scoop (10g) daily",
+      "collagenType": "Type I & III bovine collagen",
+      "protein": "9g per serving",
+      "servings": "30 servings per container"
+    },
+    "features": [
+      "Grass-fed bovine source",
+      "Hydrolyzed for better absorption",
+      "Unflavored powder",
+      "Mixes easily in liquids",
+      "Third-party tested for purity",
+      "No artificial additives"
     ],
-    "goal": ["anti-aging", "renewal"],
-    "format": "cream",
-    "servings": 60,
-    "lab_reports": [{"title": "Tolerance study", "url": "#"}],
-    "meta": {"safety_notes": "Start with 2-3 times per week", "certifications": ["Ophthalmologist Tested"]}
-  },
-  {
-    "id": "prod_014",
-    "title": "Hydrating Barrier Repair Gel",
-    "slug": "hydrating-barrier-repair-gel",
-    "category": "Beauty & Skin Care",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Hydrating Barrier Repair Gel pump bottle"}
-    ],
-    "rating": 4.8,
-    "badges": ["Sensitive Skin", "Ceramides"],
-    "short_description": "Advanced barrier repair with ceramide technology.",
-    "ingredients": [
-      {"name": "Ceramide Complex", "amount": "3%"},
-      {"name": "Niacinamide", "amount": "5%"}
-    ],
-    "goal": ["hydration", "barrier repair"],
-    "format": "gel",
-    "servings": 120,
-    "lab_reports": [{"title": "Barrier function test", "url": "#"}],
-    "meta": {"safety_notes": "Suitable for sensitive skin", "certifications": ["Hypoallergenic"]}
-  },
-  {
-    "id": "prod_015",
-    "title": "Collagen Boosting Eye Cream",
-    "slug": "collagen-boosting-eye-cream",
-    "category": "Beauty & Skin Care",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3762876/pexels-photo-3762876.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Collagen Boosting Eye Cream tube"}
-    ],
-    "rating": 4.5,
-    "badges": ["Peptides", "Caffeine"],
-    "short_description": "Targeted eye care with collagen-stimulating peptides.",
-    "ingredients": [
-      {"name": "Matrixyl 3000", "amount": "8%"},
-      {"name": "Caffeine", "amount": "2%"}
-    ],
-    "goal": ["eye care", "firming"],
-    "format": "cream",
-    "servings": 90,
-    "lab_reports": [{"title": "Eye area safety test", "url": "#"}],
-    "meta": {"safety_notes": "Avoid direct contact with eyes", "certifications": ["Ophthalmologist Tested"]}
-  },
-  {
-    "id": "prod_016",
-    "title": "Omega-3 Marine Complex",
-    "slug": "omega-3-marine-complex",
-    "category": "Nutritional Health",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3683044/pexels-photo-3683044.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Omega-3 Marine Complex softgels"}
-    ],
-    "rating": 4.6,
-    "badges": ["Molecularly Distilled", "Sustainable"],
-    "short_description": "Premium omega-3 from sustainably sourced fish oil.",
-    "ingredients": [
-      {"name": "EPA", "amount": "800mg"},
-      {"name": "DHA", "amount": "400mg"}
-    ],
-    "goal": ["heart health", "brain"],
-    "format": "softgel",
-    "servings": 60,
-    "lab_reports": [{"title": "Heavy metals analysis", "url": "#"}],
-    "meta": {"safety_notes": "Take with food", "certifications": ["IFOS 5-Star"]}
-  },
-  {
-    "id": "prod_017",
-    "title": "Kitchen Surface Sanitizer",
-    "slug": "kitchen-surface-sanitizer",
-    "category": "Household",
-    "images": [
-      {"src": "https://images.pexels.com/photos/4099263/pexels-photo-4099263.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Kitchen Surface Sanitizer spray"}
-    ],
-    "rating": 4.5,
-    "badges": ["Food-Safe", "Quick-Dry"],
-    "short_description": "Food-safe sanitization for kitchen and dining areas.",
-    "ingredients": [
-      {"name": "Ethanol", "amount": "70%"},
-      {"name": "Essential Oils", "amount": "1%"}
-    ],
-    "goal": ["sanitization", "food safety"],
-    "format": "spray",
-    "servings": 1,
-    "lab_reports": [{"title": "Antimicrobial efficacy", "url": "#"}],
-    "meta": {"safety_notes": "No rinse required on food surfaces", "certifications": ["NSF D2"]}
-  },
-  {
-    "id": "prod_018",
-    "title": "Circadian Light Therapy Lamp",
-    "slug": "circadian-light-therapy-lamp",
-    "category": "Home Technology",
-    "images": [
-      {"src": "https://images.pexels.com/photos/4473793/pexels-photo-4473793.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Circadian Light Therapy Lamp"}
-    ],
-    "rating": 4.7,
-    "badges": ["10000 Lux", "Timer Control"],
-    "short_description": "Clinical-grade light therapy for circadian rhythm support.",
-    "ingredients": [
-      {"name": "LED Array", "amount": "Full spectrum"},
-      {"name": "UV Filter", "amount": "100% blocking"}
-    ],
-    "goal": ["circadian health", "mood"],
-    "format": "device",
-    "servings": 1,
-    "lab_reports": [{"title": "Light intensity calibration", "url": "#"}],
-    "meta": {"safety_notes": "Use 30-60 minutes daily", "certifications": ["FDA Registered"]}
-  },
-  {
-    "id": "prod_019",
-    "title": "Anti-Aging Recovery Mask",
-    "slug": "anti-aging-recovery-mask",
-    "category": "Beauty & Skin Care",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3762877/pexels-photo-3762877.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Anti-Aging Recovery Mask jar"}
-    ],
-    "rating": 4.3,
-    "badges": ["Stem Cells", "Overnight"],
-    "short_description": "Intensive overnight treatment with plant stem cells.",
-    "ingredients": [
-      {"name": "Apple Stem Cells", "amount": "2%"},
-      {"name": "Growth Factors", "amount": "1%"}
-    ],
-    "goal": ["anti-aging", "recovery"],
-    "format": "mask",
-    "servings": 12,
-    "lab_reports": [{"title": "Anti-aging efficacy study", "url": "#"}],
-    "meta": {"safety_notes": "Use 2-3 times per week", "certifications": ["Cruelty-Free"]}
-  },
-  {
-    "id": "prod_020",
-    "title": "Adaptogen Energy Powder",
-    "slug": "adaptogen-energy-powder",
-    "category": "Nutritional Health",
-    "images": [
-      {"src": "https://images.pexels.com/photos/3683048/pexels-photo-3683048.jpeg?auto=compress&cs=tinysrgb&w=400", "alt": "Adaptogen Energy Powder container"}
-    ],
-    "rating": 4.4,
-    "badges": ["Organic", "Stress Support"],
-    "short_description": "Adaptogenic herb blend for sustained energy and stress resilience.",
-    "ingredients": [
-      {"name": "Ashwagandha", "amount": "600mg"},
-      {"name": "Rhodiola Rosea", "amount": "300mg"}
-    ],
-    "goal": ["energy", "stress"],
+    "usage": "Mix 1 scoop with water, coffee, or smoothie daily. Best taken on an empty stomach for optimal absorption.",
+    "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg",
+    "video": "/Angelo videos/Bovine Bone Collagen.mp4",
+    "goal": ["joint health", "skin health", "bone strength", "anti-aging"],
     "format": "powder",
-    "servings": 30,
-    "lab_reports": [{"title": "Adaptogen potency test", "url": "#"}],
-    "meta": {"safety_notes": "Mix with liquid", "certifications": ["USDA Organic"]}
+    "badges": ["Grass-Fed", "Third-Party Tested", "Hydrolyzed"]
+  },
+  {
+    "id": "cordyceps-sinensis-capsule",
+    "title": "Cordyceps Sinensis Energy Capsule",
+    "category": "Supplement Products",
+    "description": "Premium cordyceps mushroom extract for natural energy, endurance, and respiratory health.",
+    "longDescription": "Pure cordyceps sinensis mushroom extract capsules providing natural energy enhancement, improved endurance, and respiratory system support.",
+    "keyBenefits": [
+      "Natural Energy: Sustained energy without crashes",
+      "Endurance Enhancement: Improves physical performance",
+      "Respiratory Health: Supports lung function and oxygen utilization",
+      "Immune Support: Strengthens natural immunity",
+      "Adaptogenic Properties: Helps body adapt to stress",
+      "Cellular Energy: Enhances ATP production"
+    ],
+    "specifications": {
+      "servingSize": "2 capsules daily",
+      "extract": "500mg cordyceps sinensis per capsule",
+      "capsuleCount": "60 capsules per bottle",
+      "duration": "30-day supply"
+    },
+    "features": [
+      "100% Pure cordyceps extract",
+      "Standardized potency",
+      "Vegetarian capsules",
+      "No fillers or additives",
+      "Third-party tested",
+      "Sustainable sourcing"
+    ],
+    "usage": "Take 2 capsules daily with meals for sustained energy and endurance support.",
+    "image": "https://images.pexels.com/photos/3683107/pexels-photo-3683107.jpeg",
+    "video": "/Angelo videos/Cordyceps Sinensis Capsule.mp4",
+    "goal": ["energy", "endurance", "respiratory health", "immunity"],
+    "format": "capsule",
+    "badges": ["Organic", "Third-Party Tested", "Adaptogenic"]
+  },
+  {
+    "id": "daily-care-tooth-paste",
+    "title": "Daily Care Natural Toothpaste",
+    "category": "Daily Care",
+    "description": "Natural fluoride-free toothpaste with herbal extracts for complete oral care and fresh breath.",
+    "longDescription": "Premium natural toothpaste formulated with herbal extracts and natural ingredients for comprehensive oral care without harsh chemicals.",
+    "keyBenefits": [
+      "Natural Cleaning: Gentle yet effective plaque removal",
+      "Fresh Breath: Long-lasting natural freshness",
+      "Gum Health: Supports healthy gums and prevents bleeding",
+      "Enamel Protection: Strengthens tooth enamel naturally",
+      "Chemical-Free: No fluoride, SLS, or artificial additives",
+      "Whitening: Natural whitening without abrasives"
+    ],
+    "specifications": {
+      "weight": "100g per tube",
+      "formula": "Fluoride-free natural formula",
+      "flavor": "Natural mint with herbal extracts"
+    },
+    "features": [
+      "Fluoride-free formula",
+      "Natural herbal extracts",
+      "SLS-free formulation",
+      "Gentle whitening action",
+      "Fresh mint flavor",
+      "Eco-friendly packaging"
+    ],
+    "usage": "Use twice daily for brushing teeth. Safe for daily use and suitable for sensitive teeth.",
+    "image": "https://images.pexels.com/photos/298611/pexels-photo-298611.jpeg",
+    "video": "/Angelo videos/Daily Care Tooth Paste IMG.mp4",
+    "goal": ["oral health", "natural care", "daily wellness"],
+    "format": "topical",
+    "badges": ["Fluoride-Free", "Natural", "SLS-Free"]
+  },
+  {
+    "id": "energy-spray",
+    "title": "Energy Boost Spray",
+    "category": "Supplement Products",
+    "description": "Fast-acting energy spray with natural ingredients for instant vitality and mental clarity.",
+    "longDescription": "Convenient sublingual energy spray delivering fast-acting natural ingredients for immediate energy boost and enhanced mental clarity.",
+    "keyBenefits": [
+      "Instant Energy: Fast-acting sublingual absorption",
+      "Mental Clarity: Enhances focus and cognitive function",
+      "Natural Ingredients: Plant-based energy sources",
+      "Convenient: Portable spray for on-the-go use",
+      "No Crash: Sustained energy without jitters",
+      "Quick Absorption: Bypasses digestive system"
+    ],
+    "specifications": {
+      "volume": "30ml spray bottle",
+      "servings": "60 sprays per bottle",
+      "absorption": "Sublingual for fast action"
+    },
+    "features": [
+      "Sublingual spray delivery",
+      "Natural caffeine sources",
+      "B-vitamin complex",
+      "Portable bottle design",
+      "Sugar-free formula",
+      "Fast-acting ingredients"
+    ],
+    "usage": "Spray 2-3 pumps under tongue, hold for 30 seconds before swallowing. Use as needed for energy boost.",
+    "image": "https://images.pexels.com/photos/5938567/pexels-photo-5938567.jpeg",
+    "video": "/Angelo videos/Energy Spray.mp4",
+    "goal": ["energy", "focus", "mental clarity"],
+    "format": "spray",
+    "badges": ["Sugar-Free", "Natural", "Fast-Acting"]
+  },
+  {
+    "id": "protein-powder",
+    "title": "Premium Protein Powder",
+    "category": "Supplement Products",
+    "description": "High-quality protein powder for muscle building, recovery, and daily nutrition support.",
+    "longDescription": "Premium protein powder blend designed for optimal muscle building, post-workout recovery, and daily nutritional support with complete amino acid profile.",
+    "keyBenefits": [
+      "Muscle Building: Complete amino acid profile for muscle growth",
+      "Recovery Support: Accelerates post-workout recovery",
+      "Weight Management: Supports healthy weight goals",
+      "Digestive Health: Easy to digest protein sources",
+      "Energy Support: Sustained energy throughout the day",
+      "Nutritional Support: Fills daily protein requirements"
+    ],
+    "specifications": {
+      "servingSize": "1 scoop (30g)",
+      "protein": "25g per serving",
+      "servings": "30 servings per container",
+      "source": "Whey and plant protein blend"
+    },
+    "features": [
+      "Complete amino acid profile",
+      "Fast and slow-release proteins",
+      "Natural flavoring",
+      "Easy mixing formula",
+      "Third-party tested",
+      "No artificial fillers"
+    ],
+    "usage": "Mix 1 scoop with 8-10oz of water or milk. Best consumed post-workout or between meals.",
+    "image": "https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg",
+    "video": "/Angelo videos/Protein Powder.mp4",
+    "goal": ["muscle building", "recovery", "nutrition", "energy"],
+    "format": "powder",
+    "badges": ["Third-Party Tested", "Complete Protein", "Natural"]
+  },
+  {
+    "id": "seabuckthorn-refreshing-antiperspirant",
+    "title": "Seabuckthorn Refreshing Antiperspirant",
+    "category": "Daily Care",
+    "description": "Natural roll-on antiperspirant with seabuckthorn oil, witch hazel, and golden chamomile.",
+    "longDescription": "Combat body odor naturally with advanced antiperspirant featuring seabuckthorn fruit oil, North American witch hazel, and golden chamomile for all-day freshness.",
+    "keyBenefits": [
+      "Odor Control: Inhibits bacterial growth and reduces odor from source",
+      "Natural Formula: Plant-based ingredients for gentle protection",
+      "Long-lasting: All-day freshness and protection",
+      "Skin Care: Moisturizing and skin repairing properties",
+      "Anti-inflammatory: Soothes sensitive underarm skin",
+      "Safe Formula: Suitable for sensitive skin types"
+    ],
+    "specifications": {
+      "weight": "50g per bottle",
+      "application": "Roll-on design",
+      "formula": "Aluminum-free natural formula"
+    },
+    "features": [
+      "Seabuckthorn fruit oil for skin care",
+      "North American witch hazel",
+      "Golden chamomile extract",
+      "Portable roll-on design",
+      "Quick-drying formula",
+      "Long-lasting protection"
+    ],
+    "usage": "Apply to clean, dry skin on underarms. Can be used on feet and other areas prone to odor.",
+    "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg",
+    "video": "/Angelo videos/Sea Buckthorn Refreshing Antiperspirant.mp4",
+    "goal": ["daily care", "natural protection", "skin health"],
+    "format": "topical",
+    "badges": ["Aluminum-Free", "Natural", "Sensitive Skin"]
+  },
+  {
+    "id": "seabuckthorn-sanitary-napkin",
+    "title": "Seabuckthorn Sanitary Napkin",
+    "category": "Detox & Sanitary",
+    "description": "Premium sanitary napkins with seabuckthorn oil for enhanced comfort and natural protection.",
+    "longDescription": "Revolutionary sanitary napkins infused with seabuckthorn oil providing superior comfort, natural antibacterial protection, and skin-caring properties.",
+    "keyBenefits": [
+      "Enhanced Comfort: Ultra-soft materials for maximum comfort",
+      "Natural Protection: Seabuckthorn oil provides antibacterial benefits",
+      "Skin Care: Nourishes and protects intimate skin",
+      "Superior Absorption: Advanced core technology",
+      "Odor Control: Natural odor elimination",
+      "Hypoallergenic: Gentle on sensitive skin"
+    ],
+    "specifications": {
+      "count": "10 napkins per pack",
+      "absorption": "Heavy flow protection",
+      "materials": "Organic cotton top sheet with seabuckthorn infusion"
+    },
+    "features": [
+      "Seabuckthorn oil infusion",
+      "Organic cotton top sheet",
+      "Advanced absorption core",
+      "Breathable back sheet",
+      "Individual wrapping",
+      "Eco-friendly materials"
+    ],
+    "usage": "Use during menstrual cycle for enhanced comfort and natural protection. Change every 4-6 hours.",
+    "image": "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg",
+    "video": "/Angelo videos/Sea Buckthorn Sanitory Napkin.mp4",
+    "goal": ["feminine care", "comfort", "natural protection"],
+    "format": "sanitary",
+    "badges": ["Organic Cotton", "Hypoallergenic", "Eco-Friendly"]
+  },
+  {
+    "id": "seabuckthorn-fruit-oil",
+    "title": "Pure Seabuckthorn Fruit Oil",
+    "category": "Supplement Products",
+    "description": "100% pure seabuckthorn fruit oil for internal and external health benefits.",
+    "longDescription": "Premium cold-pressed seabuckthorn fruit oil rich in vitamins, antioxidants, and essential fatty acids for comprehensive health support.",
+    "keyBenefits": [
+      "Antioxidant Power: High concentration of vitamins C and E",
+      "Skin Health: Promotes healthy, radiant skin",
+      "Immune Support: Strengthens natural immunity",
+      "Heart Health: Supports cardiovascular function",
+      "Digestive Health: Soothes digestive tract",
+      "Anti-inflammatory: Reduces inflammation throughout body"
+    ],
+    "specifications": {
+      "volume": "30ml bottle",
+      "purity": "100% pure seabuckthorn fruit oil",
+      "extraction": "Cold-pressed for maximum potency"
+    },
+    "features": [
+      "Cold-pressed extraction",
+      "100% pure fruit oil",
+      "Rich in omega fatty acids",
+      "High vitamin content",
+      "Versatile use (internal/external)",
+      "Dark glass bottle protection"
+    ],
+    "usage": "Take 1-2 teaspoons daily with meals or apply topically to skin for targeted benefits.",
+    "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
+    "video": "/Angelo videos/Sea Buckthorn Fruit Oil.mp4",
+    "goal": ["antioxidant", "skin health", "immunity", "heart health"],
+    "format": "oil",
+    "badges": ["100% Pure", "Cold-Pressed", "Organic"]
+  },
+  {
+    "id": "seabuckthorn-cordyceps-ginseng-coffee",
+    "title": "Seabuckthorn Cordyceps Ginseng Coffee",
+    "category": "Supplement Products",
+    "description": "Functional coffee blend with seabuckthorn, cordyceps, and ginseng for energy and wellness.",
+    "longDescription": "Premium coffee blend enhanced with seabuckthorn, cordyceps mushroom, and ginseng for sustained energy, cognitive support, and overall wellness.",
+    "keyBenefits": [
+      "Sustained Energy: Natural caffeine with adaptogenic support",
+      "Cognitive Enhancement: Improves focus and mental clarity",
+      "Stress Adaptation: Ginseng helps body manage stress",
+      "Immune Support: Cordyceps strengthens immunity",
+      "Antioxidant Rich: Seabuckthorn provides powerful antioxidants",
+      "Smooth Energy: No jitters or energy crashes"
+    ],
+    "specifications": {
+      "servingSize": "1 packet per cup",
+      "caffeine": "Natural coffee caffeine",
+      "packets": "20 individual packets per box"
+    },
+    "features": [
+      "Premium coffee beans",
+      "Cordyceps mushroom extract",
+      "Korean red ginseng",
+      "Seabuckthorn fruit powder",
+      "Individual serving packets",
+      "Instant preparation"
+    ],
+    "usage": "Mix 1 packet with hot water, stir well. Enjoy 1-2 cups daily for optimal energy and wellness benefits.",
+    "image": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg",
+    "video": "/Angelo videos/Sea Buckthorn Cordyceps Ginseng Peptide Coffe.mp4",
+    "goal": ["energy", "focus", "stress management", "immunity"],
+    "format": "powder",
+    "badges": ["Adaptogenic", "Natural Caffeine", "Functional Coffee"]
+  },
+  {
+    "id": "seabuckthorn-oil",
+    "title": "Seabuckthorn Seed Oil",
+    "category": "Daily Care",
+    "description": "Pure seabuckthorn seed oil for skin care, hair health, and natural beauty enhancement.",
+    "longDescription": "Premium cold-pressed seabuckthorn seed oil rich in essential fatty acids and vitamins for comprehensive skin and hair care.",
+    "keyBenefits": [
+      "Skin Regeneration: Promotes healthy skin cell renewal",
+      "Anti-aging: Reduces fine lines and wrinkles",
+      "Hair Health: Nourishes scalp and strengthens hair",
+      "Moisturizing: Deep hydration for dry skin",
+      "Healing: Accelerates wound healing and skin repair",
+      "UV Protection: Natural protection against environmental damage"
+    ],
+    "specifications": {
+      "volume": "30ml bottle",
+      "purity": "100% pure seabuckthorn seed oil",
+      "extraction": "Cold-pressed for maximum potency"
+    },
+    "features": [
+      "Cold-pressed extraction",
+      "Rich in omega 3, 6, 7, 9",
+      "High vitamin E content",
+      "Versatile application",
+      "Non-comedogenic",
+      "Dark glass bottle"
+    ],
+    "usage": "Apply 2-3 drops to face and neck, or add to hair for deep conditioning treatment.",
+    "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
+    "video": "/Angelo videos/Sea Buckthorn Oil.mp4",
+    "goal": ["skin health", "anti-aging", "hair health", "natural beauty"],
+    "format": "oil",
+    "badges": ["100% Pure", "Cold-Pressed", "Multi-Use"]
+  },
+  {
+    "id": "sod-seabuckthorn-krill-oligopeptide",
+    "title": "SOD Seabuckthorn Krill Oligopeptide Complex",
+    "category": "Supplement Products",
+    "description": "Advanced anti-aging complex with SOD, seabuckthorn, and krill oil for cellular protection.",
+    "longDescription": "Revolutionary anti-aging supplement combining SOD (Superoxide Dismutase), seabuckthorn extract, and krill oil oligopeptides for comprehensive cellular protection and longevity support.",
+    "keyBenefits": [
+      "Cellular Protection: SOD neutralizes harmful free radicals",
+      "Anti-aging: Slows cellular aging process",
+      "Brain Health: Krill oil supports cognitive function",
+      "Heart Health: Omega-3s support cardiovascular system",
+      "Skin Health: Promotes youthful, healthy skin",
+      "Longevity: Supports healthy aging process"
+    ],
+    "specifications": {
+      "servingSize": "2 capsules daily",
+      "sod": "100mg SOD per serving",
+      "krillOil": "500mg Antarctic krill oil",
+      "capsuleCount": "60 capsules per bottle"
+    },
+    "features": [
+      "Pharmaceutical-grade SOD",
+      "Antarctic krill oil",
+      "Seabuckthorn extract",
+      "Oligopeptide technology",
+      "Enteric-coated capsules",
+      "Maximum bioavailability"
+    ],
+    "usage": "Take 2 capsules daily with meals for optimal anti-aging and cellular protection benefits.",
+    "image": "https://images.pexels.com/photos/3683107/pexels-photo-3683107.jpeg",
+    "video": "/Angelo videos/SOD Seabuckthorn Krill Com Oligopeptide C.mp4",
+    "goal": ["anti-aging", "cellular health", "brain health", "longevity"],
+    "format": "capsule",
+    "badges": ["Pharmaceutical Grade", "Antarctic Krill", "Anti-Aging"]
+  },
+  {
+    "id": "triplex-juice",
+    "title": "Triplex Superfood Juice",
+    "category": "Supplement Products",
+    "description": "Concentrated superfood juice blend with three powerful ingredients for daily nutrition.",
+    "longDescription": "Potent superfood juice concentrate combining three powerful ingredients for comprehensive daily nutrition and wellness support.",
+    "keyBenefits": [
+      "Superfood Nutrition: Concentrated blend of nutrient-dense ingredients",
+      "Daily Wellness: Complete nutritional support",
+      "Antioxidant Power: High ORAC value for cellular protection",
+      "Energy Support: Natural energy from whole foods",
+      "Immune Boost: Strengthens natural immunity",
+      "Digestive Health: Supports healthy digestion"
+    ],
+    "specifications": {
+      "volume": "500ml bottle",
+      "concentration": "10:1 superfood concentrate",
+      "servings": "16 servings per bottle"
+    },
+    "features": [
+      "Triple superfood blend",
+      "Cold-pressed extraction",
+      "No added sugars",
+      "Concentrated formula",
+      "Rich flavor profile",
+      "Glass bottle packaging"
+    ],
+    "usage": "Mix 2 tablespoons with water or juice daily. Best taken in the morning for optimal energy support.",
+    "image": "https://images.pexels.com/photos/1435735/pexels-photo-1435735.jpeg",
+    "video": "/Angelo videos/Triplex Juice.mp4",
+    "goal": ["nutrition", "energy", "immunity", "wellness"],
+    "format": "liquid",
+    "badges": ["Superfood", "No Added Sugar", "Cold-Pressed"]
+  },
+  {
+    "id": "vigor-cream",
+    "title": "Vigor Revitalizing Cream",
+    "category": "Daily Care",
+    "description": "Advanced revitalizing cream for skin renewal, hydration, and anti-aging benefits.",
+    "longDescription": "Luxurious revitalizing cream formulated with advanced peptides and natural extracts for comprehensive skin renewal and anti-aging benefits.",
+    "keyBenefits": [
+      "Skin Renewal: Promotes cellular regeneration",
+      "Deep Hydration: Long-lasting moisture retention",
+      "Anti-aging: Reduces fine lines and wrinkles",
+      "Firming: Improves skin elasticity and firmness",
+      "Brightening: Evens skin tone and reduces dark spots",
+      "Protection: Shields against environmental damage"
+    ],
+    "specifications": {
+      "weight": "50g per jar",
+      "texture": "Rich, luxurious cream",
+      "application": "Face and neck use"
+    },
+    "features": [
+      "Advanced peptide complex",
+      "Natural botanical extracts",
+      "Hyaluronic acid",
+      "Vitamin C and E",
+      "Non-comedogenic formula",
+      "Dermatologist tested"
+    ],
+    "usage": "Apply to clean face and neck morning and evening. Gently massage until fully absorbed.",
+    "image": "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg",
+    "video": "/Angelo videos/Vigor Cream.mp4",
+    "goal": ["anti-aging", "skin health", "hydration", "daily care"],
+    "format": "topical",
+    "badges": ["Dermatologist Tested", "Anti-Aging", "Peptide Complex"]
+  },
+  {
+    "id": "white-tea-seabuckthorn-sod-toothpaste",
+    "title": "White Tea Seabuckthorn SOD Toothpaste",
+    "category": "Detox & Sanitary",
+    "description": "Premium toothpaste with white tea extract, seabuckthorn oil, and SOD for complete oral care.",
+    "longDescription": "Revolutionary toothpaste combining white tea extract, seabuckthorn fruit oil, and SOD (Superoxide Dismutase) for comprehensive oral health protection and anti-aging benefits.",
+    "keyBenefits": [
+      "Cavity Prevention: White tea extract prevents tooth decay",
+      "Gum Health: Strengthens gums and reduces bleeding",
+      "Fresh Breath: Long-lasting natural freshness",
+      "Anti-inflammatory: Reduces oral inflammation",
+      "Healing: Accelerates healing of oral ulcers",
+      "Immunity: Enhances oral immunity by 5 times"
+    ],
+    "specifications": {
+      "weight": "150g per tube",
+      "mainIngredients": "White Tea Extract, Seabuckthorn Oil, SOD, Xylitol",
+      "formula": "Natural herbal essence with patented recipe"
+    },
+    "features": [
+      "White tea extract for antibacterial action",
+      "Seabuckthorn oil for healing",
+      "SOD for anti-aging protection",
+      "Xylitol for natural cavity prevention",
+      "High cleaning silicon for gentle whitening",
+      "Chinese herbal ingredients"
+    ],
+    "usage": "Use twice daily for brushing teeth. The unique formula provides long-term protection and deep cleaning.",
+    "image": "https://images.pexels.com/photos/298611/pexels-photo-298611.jpeg",
+    "video": "/Angelo videos/White tea Seabuckthorn Sod Toothpaste.mp4",
+    "goal": ["oral health", "anti-aging", "natural care", "immunity"],
+    "format": "topical",
+    "badges": ["Herbal Formula", "SOD Technology", "Whitening"]
   }
 ]

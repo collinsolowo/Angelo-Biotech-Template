@@ -101,21 +101,21 @@
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(0, 195, 255, 0.1);
   transition: var(--hunch-transition-normal);
-  padding: var(--hunch-space-4) 0;
+  padding: var(--hunch-space-6) 0;
 }
 
 .hunch-navbar.scrolled {
   background: rgba(255, 255, 255, 0.98);
   box-shadow: var(--hunch-shadow-lg);
   border-bottom: 1px solid rgba(0, 195, 255, 0.15);
-  padding: var(--hunch-space-3) 0;
+  padding: var(--hunch-space-4) 0;
 }
 
 /* Navigation Container */
 .hunch-nav-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 var(--hunch-space-6);
+  padding: 0 var(--hunch-space-8);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,52 +140,24 @@
 
 .hunch-logo-wrapper {
   position: relative;
-  width: 48px;
-  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .hunch-nav-logo {
-  max-width: 150px !important;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
   transition: var(--hunch-transition-normal);
   border: 2px solid var(--hunch-primary);
   box-shadow: var(--hunch-shadow-md);
-  margin-left: 50px;
 }
 
 .hunch-logo-link:hover .hunch-nav-logo {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 195, 255, 0.3);
-}
-
-.hunch-logo-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.hunch-logo-main {
-  font-size: var(--hunch-font-xl);
-  font-weight: 700;
-  color: var(--hunch-gray-800);
-  line-height: 1;
-  background: var(--hunch-gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.hunch-logo-sub {
-  font-size: var(--hunch-font-sm);
-  font-weight: 500;
-  color: var(--hunch-gray-500);
-  line-height: 1;
-  margin-top: 2px;
 }
 
 /* Desktop Navigation */
@@ -212,7 +184,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding: var(--hunch-space-3) var(--hunch-space-5);
+  padding: var(--hunch-space-4) var(--hunch-space-6);
   text-decoration: none;
   color: var(--hunch-gray-600);
   font-weight: 500;
@@ -268,7 +240,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--hunch-space-3) var(--hunch-space-5);
+  padding: var(--hunch-space-3) var(--hunch-space-6);
   border-radius: var(--hunch-radius-lg);
   text-decoration: none;
   font-weight: 600;
@@ -311,113 +283,6 @@
   width: 100%;
 }
 
-/* Language Selector */
-.hunch-language-selector {
-  position: relative;
-}
-
-.hunch-lang-trigger {
-  display: flex;
-  align-items: center;
-  gap: var(--hunch-space-2);
-  padding: var(--hunch-space-3) var(--hunch-space-4);
-  background: transparent;
-  border: 1px solid var(--hunch-gray-300);
-  border-radius: var(--hunch-radius-lg);
-  color: var(--hunch-gray-600);
-  font-weight: 500;
-  font-size: var(--hunch-font-sm);
-  cursor: pointer;
-  transition: var(--hunch-transition-normal);
-}
-
-.hunch-lang-trigger:hover {
-  background: var(--hunch-gray-50);
-  border-color: var(--hunch-gray-400);
-}
-
-.hunch-lang-trigger.open {
-  background: var(--hunch-gray-50);
-  border-color: var(--hunch-primary);
-  color: var(--hunch-primary);
-}
-
-.hunch-chevron {
-  transition: var(--hunch-transition-normal);
-}
-
-.hunch-chevron.open {
-  transform: rotate(180deg);
-}
-
-.hunch-lang-dropdown {
-  position: absolute;
-  top: calc(100% + var(--hunch-space-2));
-  right: 0;
-  min-width: 180px;
-  background: var(--hunch-white);
-  border: 1px solid var(--hunch-gray-200);
-  border-radius: var(--hunch-radius-lg);
-  box-shadow: var(--hunch-shadow-xl);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-10px);
-  transition: var(--hunch-transition-normal);
-  overflow: hidden;
-}
-
-.hunch-lang-dropdown.open {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.hunch-lang-dropdown-inner {
-  padding: var(--hunch-space-2);
-}
-
-.hunch-lang-option {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: var(--hunch-space-3);
-  background: none;
-  border: none;
-  border-radius: var(--hunch-radius-md);
-  text-align: left;
-  cursor: pointer;
-  transition: var(--hunch-transition-fast);
-  position: relative;
-}
-
-.hunch-lang-option:hover {
-  background: var(--hunch-gray-50);
-}
-
-.hunch-lang-option.active {
-  background: rgba(0, 195, 255, 0.1);
-  color: var(--hunch-primary);
-  font-weight: 600;
-}
-
-.hunch-lang-code {
-  font-weight: 600;
-  font-size: var(--hunch-font-sm);
-}
-
-.hunch-lang-name {
-  font-size: var(--hunch-font-sm);
-  color: var(--hunch-gray-600);
-}
-
-.hunch-lang-indicator {
-  width: 6px;
-  height: 6px;
-  background: var(--hunch-primary);
-  border-radius: var(--hunch-radius-full);
-}
-
 /* Mobile Menu Button */
 .hunch-mobile-menu-btn {
   display: flex;
@@ -457,6 +322,7 @@
   visibility: hidden;
   transition: var(--hunch-transition-normal);
   backdrop-filter: blur(4px);
+  z-index: 999;
 }
 
 .hunch-mobile-overlay.open {
@@ -643,11 +509,7 @@
 /* Responsive Design */
 @media (max-width: 1023px) {
   .hunch-nav-container {
-    padding: 0 var(--hunch-space-4);
-  }
-  
-  .hunch-logo-text {
-    display: none;
+    padding: 0 var(--hunch-space-6);
   }
 }
 
@@ -657,11 +519,39 @@
   }
   
   .hunch-navbar {
+    padding: var(--hunch-space-4) 0;
+  }
+  
+  .hunch-navbar.scrolled {
+    padding: var(--hunch-space-3) 0;
+  }
+  
+  .hunch-nav-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hunch-nav-container {
+    padding: 0 var(--hunch-space-3);
+  }
+  
+  .hunch-navbar {
     padding: var(--hunch-space-3) 0;
   }
   
   .hunch-navbar.scrolled {
     padding: var(--hunch-space-2) 0;
+  }
+  
+  .hunch-nav-logo {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .hunch-mobile-menu {
+    width: 100vw;
   }
 }
 
@@ -696,8 +586,6 @@
 /* Focus Styles */
 .hunch-nav-link:focus,
 .hunch-mobile-nav-link:focus,
-.hunch-lang-trigger:focus,
-.hunch-lang-option:focus,
 .hunch-mobile-menu-btn:focus,
 .hunch-btn:focus {
   outline: 2px solid var(--hunch-primary);
@@ -710,3 +598,4 @@
     display: none;
   }
 }
+
