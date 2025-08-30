@@ -894,7 +894,7 @@
   inset: 0;
   /* top:0; right:0; bottom:0; left:0; */
   z-index: 0;
-  background-image: url('/assets/hero-bg.jpg');
+  background-image: url('/assets/hero-bg.jpeg');
   /* <-- put image at public/assets/hero-bg.jpg */
   background-size: 50% 50%;
   background-position: center center;
@@ -1009,7 +1009,7 @@
   position: absolute;
   inset: 0;
   /* top:0; right:0; bottom:0; left:0; */
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
   /* change alpha to 0.3 (lighter) or 0.6 (darker) */
   z-index: 0;
 }
