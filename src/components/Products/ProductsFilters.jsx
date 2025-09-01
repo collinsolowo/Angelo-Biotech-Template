@@ -12,7 +12,6 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
   const categories = [
     'All Categories',
     'Nutritional Health',
-    'Household',
     'Home Technology',
     'Beauty & Skin Care'
   ];
@@ -22,22 +21,55 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
     'capsule',
     'powder',
     'device',
-    'serum',
     'cream',
     'spray',
-    'softgel'
+    'oil',
+    'liquid',
+    'paste',
+    'tablet',
+    'patch',
+    'roll-on',
+    'sanitary'
   ];
 
   const goals = [
-    'cognition',
-    'sleep',
-    'energy',
-    'immunity',
     'longevity',
-    'digestion',
     'anti-aging',
-    'cleaning',
-    'air quality'
+    'cellular health',
+    'immunity',
+    'energy',
+    'eye health',
+    'digestive health',
+    'detox',
+    'skin health',
+    'bone health',
+    'joint support',
+    'brain health',
+    'heart health',
+    'oral health',
+    'daily care',
+    'natural protection',
+    'feminine care',
+    'comfort',
+    'moisturization',
+    'healing',
+    'hydration',
+    'focus',
+    'digital wellness',
+    'circulation',
+    'sleep',
+    'wellness',
+    'nutrition',
+    'recovery',
+    'antioxidant',
+    'stress management',
+    'cognitive health',
+    'endurance',
+    'respiratory health',
+    'blood sugar support',
+    'metabolism',
+    'energy balance',
+    'cellular protection'
   ];
 
   const sortOptions = [
@@ -147,7 +179,7 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
           marginBottom: isSticky ? '0' : '2rem'
         }}
       >
-        <div className="container" style={{marginTop: '100px'}}>
+        <div className="container" style={{marginTop: isSticky ? '0' : '100px'}}>
           {/* Main Filter Bar */}
           <div style={{
             display: 'flex',
@@ -157,7 +189,12 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
             marginBottom: showFilters ? '1rem' : '0'
           }}>
             {/* Search */}
-            <div style={{ position: 'relative', minWidth: '300px', flex: 1 }} ref={searchRef}>
+            <div style={{ 
+              position: 'relative', 
+              minWidth: window.innerWidth <= 768 ? '100%' : '300px', 
+              flex: 1,
+              width: window.innerWidth <= 768 ? '100%' : 'auto'
+            }} ref={searchRef}>
               <div style={{ position: 'relative' }}>
                 <Search 
                   size={18} 
@@ -225,10 +262,9 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
 
             {/* Quick Category Pills */}
             <div style={{ 
-              display: 'flex', 
+              display: window.innerWidth <= 768 ? 'none' : 'flex', 
               gap: '0.5rem',
-              flexWrap: 'wrap',
-              flex: window.innerWidth > 1024 ? 'none' : '1'
+              flexWrap: 'wrap'
             }}>
               {categories.slice(1, 5).map(category => (
                 <button
@@ -329,10 +365,35 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
               borderRadius: 'var(--radius)',
               border: '1px solid var(--border)'
             }}>
+              {/* Mobile Category Filter */}
+              {window.innerWidth <= 768 && (
+                <div style={{ marginBottom: '1.5rem' }}>
+                  <h4 style={{ marginBottom: '1rem', fontSize: '1rem' }}>Category</h4>
+                  <select
+                    value={filters.category || 'All Categories'}
+                    onChange={(e) => handleCategoryChange(e.target.value)}
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '1px solid var(--border)',
+                      borderRadius: 'var(--radius)',
+                      background: 'var(--white)',
+                      fontSize: '16px'
+                    }}
+                  >
+                    {categories.map(category => (
+                      <option key={category} value={category}>
+                        {category}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              )}
+
               <div style={{ 
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-                gap: '2rem'
+                gridTemplateColumns: window.innerWidth <= 768 ? '1fr' : 'repeat(auto-fit, minmax(250px, 1fr))',
+                gap: window.innerWidth <= 768 ? '1.5rem' : '2rem'
               }}>
                 {/* Format Filter */}
                 <div>
@@ -342,10 +403,11 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
                     onChange={(e) => onFilterChange({ format: e.target.value === 'All Formats' ? '' : e.target.value })}
                     style={{
                       width: '100%',
-                      padding: '10px',
+                      padding: '12px',
                       border: '1px solid var(--border)',
                       borderRadius: 'var(--radius)',
-                      background: 'var(--white)'
+                      background: 'var(--white)',
+                      fontSize: '16px'
                     }}
                   >
                     {formats.map(format => (
@@ -362,7 +424,9 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
                   <div style={{ 
                     display: 'flex', 
                     flexWrap: 'wrap', 
-                    gap: '0.5rem' 
+                    gap: '0.5rem',
+                    maxHeight: window.innerWidth <= 768 ? '200px' : 'none',
+                    overflowY: window.innerWidth <= 768 ? 'auto' : 'visible'
                   }}>
                     {goals.map(goal => (
                       <button
@@ -374,9 +438,10 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
                           border: filters.goals.includes(goal) ? '2px solid var(--primary)' : '1px solid var(--border)',
                           background: filters.goals.includes(goal) ? 'var(--primary)' : 'var(--white)',
                           color: filters.goals.includes(goal) ? 'white' : 'var(--text-primary)',
-                          fontSize: '14px',
+                          fontSize: window.innerWidth <= 768 ? '13px' : '14px',
                           cursor: 'pointer',
-                          transition: 'all 0.2s ease'
+                          transition: 'all 0.2s ease',
+                          whiteSpace: 'nowrap'
                         }}
                       >
                         {goal.charAt(0).toUpperCase() + goal.slice(1)}
@@ -423,7 +488,7 @@ const ProductsFilters = ({ filters, onFilterChange, totalResults = 0 }) => {
       </div>
       
       {/* Spacer when sticky */}
-      {isSticky && <div style={{ height: '120px' }} />}
+      {isSticky && <div style={{ height: window.innerWidth <= 768 ? '140px' : '120px' }} />}
     </>
   );
 };

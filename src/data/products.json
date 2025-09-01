@@ -2,7 +2,7 @@
   {
     "id": "hydrogen-water-cup",
     "title": "H2O Hydrogen Rich Water Cup",
-    "category": "Supplement Products",
+    "category": "Home Technology",
     "description": "Advanced hydrogen water generator with PEM technology for cellular health and anti-aging benefits.",
     "longDescription": "Revolutionary hydrogen water cup that uses advanced PEM technology to create hydrogen-rich water with concentrations of 3000-5000ppb. Essential for cellular health, anti-aging, and overall wellness.",
     "keyBenefits": [
@@ -30,7 +30,7 @@
       "Waterproof USB charging"
     ],
     "usage": "Drink 1.5L hydrogen-rich water daily at different times for different functions. Equivalent antioxidant value of 756 bananas, 516 apples, 38 carrots, or 3.7 pumpkins.",
-    "image": "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg",
+    "image": "/Angelo Pictures/H2O HYDROGEN RICH WATER CUP.jpg",
     "video": "/Angelo videos/Hydrogen Water Cup Pic.mp4",
     "goal": ["longevity", "anti-aging", "cellular health", "immunity"],
     "format": "device",
@@ -39,7 +39,7 @@
   {
     "id": "alovera-capsule",
     "title": "Alovera Health Capsule",
-    "category": "Supplement Products", 
+    "category": "Nutritional Health", 
     "description": "Premium aloe vera extract capsules for digestive health and natural detoxification.",
     "longDescription": "Pure aloe vera extract in convenient capsule form, providing powerful digestive support and natural detoxification benefits for optimal gut health.",
     "keyBenefits": [
@@ -65,7 +65,7 @@
       "Easy to Swallow"
     ],
     "usage": "Take 2 capsules daily with meals for optimal digestive health and detoxification support.",
-    "image": "https://images.pexels.com/photos/3683107/pexels-photo-3683107.jpeg",
+    "image": "/Angelo Pictures/ALOE VERA CAPSULE.jpg",
     "video": "/Angelo videos/Alovera Capsule.mp4",
     "goal": ["digestive health", "detox", "immunity", "skin health"],
     "format": "capsule",
@@ -74,7 +74,7 @@
   {
     "id": "anion-blue-ray-glasses",
     "title": "Anion Anti Blue-Ray Glasses",
-    "category": "Daily Care",
+    "category": "Home Technology",
     "description": "Advanced eye protection glasses with negative ion technology and blue light filtering.",
     "longDescription": "Protect your eyes from digital strain with revolutionary anion anti blue-ray glasses featuring tourmaline stone ingredients and negative oxygen ion protective layer.",
     "keyBenefits": [
@@ -100,7 +100,7 @@
       "Stylish appearance"
     ],
     "usage": "Wear during computer work, studying, or any screen time to protect eyes and reduce digital fatigue.",
-    "image": "https://images.pexels.com/photos/947885/pexels-photo-947885.jpeg",
+    "image": "/Angelo Pictures/ANION ANTI BLUE-RAY SPEC.jpg",
     "video": "/Angelo videos/Anion Antiblueray Spec.mp4",
     "goal": ["eye health", "digital wellness", "focus"],
     "format": "device",
@@ -109,7 +109,7 @@
   {
     "id": "balance-cream",
     "title": "Balance Healing Cream",
-    "category": "Daily Care",
+    "category": "Beauty & Skin Care",
     "description": "Multi-purpose healing cream for skin repair, inflammation reduction, and daily skin care.",
     "longDescription": "Advanced healing cream formulated with natural ingredients to provide comprehensive skin care, repair damaged skin, and maintain healthy skin barrier function.",
     "keyBenefits": [
@@ -134,16 +134,16 @@
       "Portable tube design"
     ],
     "usage": "Apply to affected areas 2-3 times daily or as needed for skin repair and daily care.",
-    "image": "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg",
+    "image": "/Angelo Pictures/BALANCE CREAM.jpg",
     "video": "/Angelo videos/Balance Cream.mp4",
     "goal": ["skin health", "healing", "daily care"],
-    "format": "topical",
+    "format": "cream",
     "badges": ["Hypoallergenic", "Dermatologist Tested", "Natural"]
   },
   {
     "id": "bamboo-vinegar-patch",
     "title": "Bamboo Vinegar Detox Patch",
-    "category": "Detox & Sanitary",
+    "category": "Beauty & Skin Care",
     "description": "Natural detox foot patches with bamboo vinegar for toxin removal and improved circulation.",
     "longDescription": "Traditional bamboo vinegar foot patches designed to draw out toxins through the feet while you sleep, promoting better circulation and overall wellness.",
     "keyBenefits": [
@@ -168,16 +168,566 @@
       "Comfortable wear"
     ],
     "usage": "Apply to clean feet before bedtime, remove in the morning. Use 2-3 times per week for optimal detox benefits.",
-    "image": "https://images.pexels.com/photos/6621374/pexels-photo-6621374.jpeg",
+    "image": "/Angelo Pictures/BAMBOO VINEGAR PATCH.jpg",
     "video": "/Angelo videos/Bamboo Vinegar Patch.mp4",
     "goal": ["detox", "circulation", "sleep", "wellness"],
-    "format": "topical",
+    "format": "patch",
     "badges": ["Natural", "Traditional Medicine", "Overnight Treatment"]
+  },
+  {
+    "id": "energy-spray",
+    "title": "Energy Boost Spray",
+    "category": "Nutritional Health",
+    "description": "Fast-acting energy spray with natural ingredients for instant vitality and mental clarity.",
+    "longDescription": "Convenient sublingual energy spray delivering fast-acting natural ingredients for immediate energy boost and enhanced mental clarity.",
+    "keyBenefits": [
+      "Instant Energy: Fast-acting sublingual absorption",
+      "Mental Clarity: Enhances focus and cognitive function",
+      "Natural Ingredients: Plant-based energy sources",
+      "Convenient: Portable spray for on-the-go use",
+      "No Crash: Sustained energy without jitters",
+      "Quick Absorption: Bypasses digestive system"
+    ],
+    "specifications": {
+      "volume": "30ml spray bottle",
+      "servings": "60 sprays per bottle",
+      "absorption": "Sublingual for fast action"
+    },
+    "features": [
+      "Sublingual spray delivery",
+      "Natural caffeine sources",
+      "B-vitamin complex",
+      "Portable bottle design",
+      "Sugar-free formula",
+      "Fast-acting ingredients"
+    ],
+    "usage": "Spray 2-3 pumps under tongue, hold for 30 seconds before swallowing. Use as needed for energy boost.",
+    "image": "/Angelo Pictures/ENERGY SPRAY.jpg",
+    "video": "/Angelo videos/Energy Spray.mp4",
+    "goal": ["energy", "focus", "mental clarity"],
+    "format": "spray",
+    "badges": ["Sugar-Free", "Natural", "Fast-Acting"]
+  },
+  {
+    "id": "herbal-toothpaste",
+    "title": "Herbal Natural Toothpaste",
+    "category": "Beauty & Skin Care",
+    "description": "Natural fluoride-free toothpaste with herbal extracts for complete oral care and fresh breath.",
+    "longDescription": "Premium natural toothpaste formulated with herbal extracts and natural ingredients for comprehensive oral care without harsh chemicals.",
+    "keyBenefits": [
+      "Natural Cleaning: Gentle yet effective plaque removal",
+      "Fresh Breath: Long-lasting natural freshness",
+      "Gum Health: Supports healthy gums and prevents bleeding",
+      "Enamel Protection: Strengthens tooth enamel naturally",
+      "Chemical-Free: No fluoride, SLS, or artificial additives",
+      "Whitening: Natural whitening without abrasives"
+    ],
+    "specifications": {
+      "weight": "100g per tube",
+      "formula": "Fluoride-free natural formula",
+      "flavor": "Natural mint with herbal extracts"
+    },
+    "features": [
+      "Fluoride-free formula",
+      "Natural herbal extracts",
+      "SLS-free formulation",
+      "Gentle whitening action",
+      "Fresh mint flavor",
+      "Eco-friendly packaging"
+    ],
+    "usage": "Use twice daily for brushing teeth. Safe for daily use and suitable for sensitive teeth.",
+    "image": "/Angelo Pictures/HERBAL TOOTHPASTE.jpg",
+    "video": "/Angelo videos/Daily Care Tooth Paste IMG.mp4",
+    "goal": ["oral health", "natural care", "daily wellness"],
+    "format": "paste",
+    "badges": ["Fluoride-Free", "Natural", "SLS-Free"]
+  },
+  {
+    "id": "sea-buckthorn-rejuvenation-body-lotion",
+    "title": "Sea Buckthorn Rejuvenation Body Lotion",
+    "category": "Beauty & Skin Care",
+    "description": "Luxurious body lotion with sea buckthorn oil for skin rejuvenation and deep moisturization.",
+    "longDescription": "Premium body lotion infused with sea buckthorn oil providing deep moisturization, skin rejuvenation, and anti-aging benefits for silky smooth skin.",
+    "keyBenefits": [
+      "Deep Moisturization: Long-lasting hydration for all skin types",
+      "Skin Rejuvenation: Promotes cellular renewal and repair",
+      "Anti-aging: Reduces signs of aging and improves elasticity",
+      "Nourishing: Rich in vitamins and essential fatty acids",
+      "Fast Absorption: Non-greasy formula absorbs quickly",
+      "Natural Protection: Shields skin from environmental damage"
+    ],
+    "specifications": {
+      "volume": "200ml per bottle",
+      "texture": "Lightweight, fast-absorbing",
+      "formula": "Sea buckthorn oil enriched"
+    },
+    "features": [
+      "Sea buckthorn oil infusion",
+      "Vitamin E enriched",
+      "Fast-absorbing formula",
+      "Non-greasy texture",
+      "Suitable for daily use",
+      "Pleasant natural scent"
+    ],
+    "usage": "Apply to clean skin after shower or as needed. Massage gently until fully absorbed.",
+    "image": "/Angelo Pictures/SEA BUCKTHORN REJUVENATION BODY LOTION.jpg",
+    "video": "/Angelo videos/Sea Buckthorn Oil.mp4",
+    "goal": ["skin health", "moisturization", "anti-aging", "daily care"],
+    "format": "cream",
+    "badges": ["Natural", "Vitamin Enriched", "Fast-Absorbing"]
+  },
+  {
+    "id": "seabuckthorn-bovine-collagen-peptide-calcium",
+    "title": "Seabuckthorn Bovine Collagen Peptide Calcium",
+    "category": "Nutritional Health",
+    "description": "Advanced collagen complex with seabuckthorn and calcium for bone health and anti-aging.",
+    "longDescription": "Premium bovine collagen peptide supplement enhanced with seabuckthorn extract and calcium for comprehensive bone health, joint support, and anti-aging benefits.",
+    "keyBenefits": [
+      "Bone Health: Calcium and collagen support bone density",
+      "Joint Support: Maintains cartilage health and flexibility",
+      "Skin Elasticity: Promotes youthful, firm skin",
+      "Muscle Recovery: Aids in post-workout recovery",
+      "Anti-aging: Reduces signs of aging from within",
+      "Antioxidant Protection: Seabuckthorn provides cellular protection"
+    ],
+    "specifications": {
+      "servingSize": "1 packet daily",
+      "collagenType": "Type I & III bovine collagen peptides",
+      "calcium": "Enhanced with bioavailable calcium",
+      "packets": "30 packets per box"
+    },
+    "features": [
+      "Hydrolyzed collagen peptides",
+      "Seabuckthorn extract",
+      "Bioavailable calcium",
+      "Individual serving packets",
+      "Easy mixing formula",
+      "Pleasant taste"
+    ],
+    "usage": "Mix 1 packet with water or juice daily. Best taken with meals for optimal absorption.",
+    "image": "/Angelo Pictures/SEABUCKTHORN BOVINE COLLAGEN PEPTIDE CALCI.jpg",
+    "video": "/Angelo videos/Bovine Bone Collagen.mp4",
+    "goal": ["bone health", "joint support", "anti-aging", "skin health"],
+    "format": "powder",
+    "badges": ["Hydrolyzed", "Calcium Enhanced", "Anti-Aging"]
+  },
+  {
+    "id": "seabuckthorn-cordyceps-ginseng-capsule",
+    "title": "Seabuckthorn Cordyceps Ginseng Capsule",
+    "category": "Nutritional Health",
+    "description": "Powerful adaptogenic blend with seabuckthorn, cordyceps, and ginseng for energy and vitality.",
+    "longDescription": "Premium adaptogenic supplement combining seabuckthorn, cordyceps mushroom, and ginseng for sustained energy, stress adaptation, and overall vitality.",
+    "keyBenefits": [
+      "Sustained Energy: Natural energy enhancement without crashes",
+      "Stress Adaptation: Helps body cope with physical and mental stress",
+      "Immune Support: Strengthens natural immunity",
+      "Cognitive Enhancement: Improves focus and mental clarity",
+      "Endurance: Enhances physical performance and stamina",
+      "Antioxidant Power: Protects against cellular damage"
+    ],
+    "specifications": {
+      "servingSize": "2 capsules daily",
+      "extract": "Standardized herbal extracts",
+      "capsuleCount": "60 capsules per bottle",
+      "duration": "30-day supply"
+    },
+    "features": [
+      "Triple adaptogenic blend",
+      "Standardized extracts",
+      "Vegetarian capsules",
+      "No artificial additives",
+      "Third-party tested",
+      "Sustainable sourcing"
+    ],
+    "usage": "Take 2 capsules daily with meals for optimal energy and adaptogenic benefits.",
+    "image": "/Angelo Pictures/SEABUCKTHORN CORDYCEPS GINSENG CAPSULE.jpg",
+    "video": "/Angelo videos/Cordyceps Sinensis Capsule.mp4",
+    "goal": ["energy", "stress management", "immunity", "cognitive health"],
+    "format": "capsule",
+    "badges": ["Adaptogenic", "Triple Blend", "Energy Support"]
+  },
+  {
+    "id": "seabuckthorn-krill-corn-oligopeptide-composite",
+    "title": "Seabuckthorn Krill Corn Oligopeptide Composite",
+    "category": "Nutritional Health",
+    "description": "Advanced oligopeptide complex with seabuckthorn and krill oil for cellular health and longevity.",
+    "longDescription": "Revolutionary supplement combining seabuckthorn extract, krill oil, and corn oligopeptides for comprehensive cellular protection and longevity support.",
+    "keyBenefits": [
+      "Cellular Protection: Oligopeptides support cellular repair",
+      "Brain Health: Krill oil supports cognitive function",
+      "Heart Health: Omega-3s support cardiovascular system",
+      "Anti-aging: Slows cellular aging process",
+      "Antioxidant Power: Seabuckthorn provides cellular protection",
+      "Longevity: Supports healthy aging process"
+    ],
+    "specifications": {
+      "servingSize": "2 capsules daily",
+      "krillOil": "500mg Antarctic krill oil",
+      "oligopeptides": "Bioactive corn oligopeptides",
+      "capsuleCount": "60 capsules per bottle"
+    },
+    "features": [
+      "Antarctic krill oil",
+      "Bioactive oligopeptides",
+      "Seabuckthorn extract",
+      "Advanced bioavailability",
+      "Enteric-coated capsules",
+      "Maximum potency"
+    ],
+    "usage": "Take 2 capsules daily with meals for optimal cellular protection and longevity benefits.",
+    "image": "/Angelo Pictures/SEABUCKTHORN KRILL CORN OLIGOPEPTIDE COMPOSITE C.jpg",
+    "video": "/Angelo videos/SOD Seabuckthorn Krill Com Oligopeptide C.mp4",
+    "goal": ["cellular health", "longevity", "brain health", "heart health"],
+    "format": "capsule",
+    "badges": ["Antarctic Krill", "Oligopeptide", "Longevity Support"]
+  },
+  {
+    "id": "seabuckthorn-protein-powder-solid-drink",
+    "title": "Seabuckthorn Protein Powder Solid Drink",
+    "category": "Nutritional Health",
+    "description": "High-quality protein powder enhanced with seabuckthorn for muscle building and antioxidant support.",
+    "longDescription": "Premium protein powder blend enhanced with seabuckthorn extract for optimal muscle building, recovery, and antioxidant protection.",
+    "keyBenefits": [
+      "Muscle Building: Complete amino acid profile for muscle growth",
+      "Recovery Support: Accelerates post-workout recovery",
+      "Antioxidant Power: Seabuckthorn provides cellular protection",
+      "Energy Support: Sustained energy from quality protein",
+      "Immune Boost: Strengthens natural immunity",
+      "Nutritional Support: Complete daily protein requirements"
+    ],
+    "specifications": {
+      "servingSize": "1 scoop (30g)",
+      "protein": "25g per serving",
+      "servings": "30 servings per container",
+      "source": "High-quality protein with seabuckthorn"
+    },
+    "features": [
+      "Seabuckthorn enhanced formula",
+      "Complete amino acid profile",
+      "Easy mixing powder",
+      "Natural flavoring",
+      "Third-party tested",
+      "No artificial fillers"
+    ],
+    "usage": "Mix 1 scoop with water or milk daily. Best consumed post-workout or between meals.",
+    "image": "/Angelo Pictures/SEABUCKTHORN PROTEIN POWDER SOLID DRINK.jpg",
+    "video": "/Angelo videos/Protein Powder.mp4",
+    "goal": ["muscle building", "recovery", "antioxidant", "nutrition"],
+    "format": "powder",
+    "badges": ["Seabuckthorn Enhanced", "Complete Protein", "Recovery Support"]
+  },
+  {
+    "id": "seabuckthorn-refreshing-antiperspirant",
+    "title": "Seabuckthorn Refreshing Antiperspirant",
+    "category": "Beauty & Skin Care",
+    "description": "Natural roll-on antiperspirant with seabuckthorn oil, witch hazel, and golden chamomile.",
+    "longDescription": "Combat body odor naturally with advanced antiperspirant featuring seabuckthorn fruit oil, North American witch hazel, and golden chamomile for all-day freshness.",
+    "keyBenefits": [
+      "Odor Control: Inhibits bacterial growth and reduces odor from source",
+      "Natural Formula: Plant-based ingredients for gentle protection",
+      "Long-lasting: All-day freshness and protection",
+      "Skin Care: Moisturizing and skin repairing properties",
+      "Anti-inflammatory: Soothes sensitive underarm skin",
+      "Safe Formula: Suitable for sensitive skin types"
+    ],
+    "specifications": {
+      "weight": "50g per bottle",
+      "application": "Roll-on design",
+      "formula": "Aluminum-free natural formula"
+    },
+    "features": [
+      "Seabuckthorn fruit oil for skin care",
+      "North American witch hazel",
+      "Golden chamomile extract",
+      "Portable roll-on design",
+      "Quick-drying formula",
+      "Long-lasting protection"
+    ],
+    "usage": "Apply to clean, dry skin on underarms. Can be used on feet and other areas prone to odor.",
+    "image": "/Angelo Pictures/SEABUCKTHORN REFRESHING ANTIPERSPIRANT.jpg",
+    "video": "/Angelo videos/Sea Buckthorn Refreshing Antiperspirant.mp4",
+    "goal": ["daily care", "natural protection", "skin health"],
+    "format": "roll-on",
+    "badges": ["Aluminum-Free", "Natural", "Sensitive Skin"]
+  },
+  {
+    "id": "seabuckthorn-sanitary-napkins",
+    "title": "Seabuckthorn Sanitary Napkins",
+    "category": "Beauty & Skin Care",
+    "description": "Premium sanitary napkins with seabuckthorn oil for enhanced comfort and natural protection.",
+    "longDescription": "Revolutionary sanitary napkins infused with seabuckthorn oil providing superior comfort, natural antibacterial protection, and skin-caring properties.",
+    "keyBenefits": [
+      "Enhanced Comfort: Ultra-soft materials for maximum comfort",
+      "Natural Protection: Seabuckthorn oil provides antibacterial benefits",
+      "Skin Care: Nourishes and protects intimate skin",
+      "Superior Absorption: Advanced core technology",
+      "Odor Control: Natural odor elimination",
+      "Hypoallergenic: Gentle on sensitive skin"
+    ],
+    "specifications": {
+      "count": "10 napkins per pack",
+      "absorption": "Heavy flow protection",
+      "materials": "Organic cotton top sheet with seabuckthorn infusion"
+    },
+    "features": [
+      "Seabuckthorn oil infusion",
+      "Organic cotton top sheet",
+      "Advanced absorption core",
+      "Breathable back sheet",
+      "Individual wrapping",
+      "Eco-friendly materials"
+    ],
+    "usage": "Use during menstrual cycle for enhanced comfort and natural protection. Change every 4-6 hours.",
+    "image": "/Angelo Pictures/SEABUCKTHORN SANITORY NAPKINS.jpg",
+    "video": "/Angelo videos/Sea Buckthorn Sanitory Napkin.mp4",
+    "goal": ["feminine care", "comfort", "natural protection"],
+    "format": "sanitary",
+    "badges": ["Organic Cotton", "Hypoallergenic", "Eco-Friendly"]
+  },
+  {
+    "id": "sod-seabuckthorn-fruit-oil",
+    "title": "SOD Seabuckthorn Fruit Oil",
+    "category": "Nutritional Health",
+    "description": "Premium SOD-enhanced seabuckthorn fruit oil for powerful antioxidant protection and anti-aging.",
+    "longDescription": "Advanced seabuckthorn fruit oil enhanced with SOD (Superoxide Dismutase) for maximum antioxidant protection and comprehensive anti-aging benefits.",
+    "keyBenefits": [
+      "Powerful Antioxidant: SOD provides superior free radical protection",
+      "Anti-aging: Slows cellular aging and promotes longevity",
+      "Skin Health: Promotes healthy, radiant skin from within",
+      "Immune Support: Strengthens natural immunity",
+      "Heart Health: Supports cardiovascular function",
+      "Cellular Protection: Protects cells from oxidative damage"
+    ],
+    "specifications": {
+      "volume": "30ml bottle",
+      "purity": "SOD-enhanced seabuckthorn fruit oil",
+      "extraction": "Cold-pressed with SOD enhancement"
+    },
+    "features": [
+      "SOD enhancement technology",
+      "Cold-pressed seabuckthorn oil",
+      "Maximum antioxidant potency",
+      "Versatile use (internal/external)",
+      "Dark glass bottle protection",
+      "Premium quality oil"
+    ],
+    "usage": "Take 1-2 teaspoons daily with meals or apply topically for targeted anti-aging benefits.",
+    "image": "/Angelo Pictures/SOD Seabuckthorn Fruit Oil.jpg",
+    "video": "/Angelo videos/SOD Seabuckthorn Krill Com Oligopeptide C.mp4",
+    "goal": ["antioxidant", "anti-aging", "cellular health", "immunity"],
+    "format": "oil",
+    "badges": ["SOD Enhanced", "Cold-Pressed", "Anti-Aging"]
+  },
+  {
+    "id": "sod-seabuckthorn-krill-corn-oligopeptide-composite",
+    "title": "SOD Seabuckthorn Krill Corn Oligopeptide Composite",
+    "category": "Nutritional Health",
+    "description": "Ultimate anti-aging complex with SOD, seabuckthorn, krill oil, and oligopeptides.",
+    "longDescription": "Revolutionary anti-aging supplement combining SOD (Superoxide Dismutase), seabuckthorn extract, krill oil, and corn oligopeptides for comprehensive cellular protection and longevity support.",
+    "keyBenefits": [
+      "Cellular Protection: SOD neutralizes harmful free radicals",
+      "Anti-aging: Slows cellular aging process significantly",
+      "Brain Health: Krill oil supports cognitive function",
+      "Heart Health: Omega-3s support cardiovascular system",
+      "Skin Health: Promotes youthful, healthy skin",
+      "Longevity: Supports healthy aging process"
+    ],
+    "specifications": {
+      "servingSize": "2 capsules daily",
+      "sod": "100mg SOD per serving",
+      "krillOil": "500mg Antarctic krill oil",
+      "capsuleCount": "60 capsules per bottle"
+    },
+    "features": [
+      "Pharmaceutical-grade SOD",
+      "Antarctic krill oil",
+      "Seabuckthorn extract",
+      "Oligopeptide technology",
+      "Enteric-coated capsules",
+      "Maximum bioavailability"
+    ],
+    "usage": "Take 2 capsules daily with meals for optimal anti-aging and cellular protection benefits.",
+    "image": "/Angelo Pictures/SOD SEABUCKTHORN KRILL CORN OLIGOPEPTIDE COMPOSITE C.jpg",
+    "video": "/Angelo videos/SOD Seabuckthorn Krill Com Oligopeptide C.mp4",
+    "goal": ["anti-aging", "cellular health", "brain health", "longevity"],
+    "format": "capsule",
+    "badges": ["Pharmaceutical Grade", "SOD Technology", "Longevity"]
+  },
+  {
+    "id": "triplex-juice",
+    "title": "Triplex Superfood Juice",
+    "category": "Nutritional Health",
+    "description": "Concentrated superfood juice blend with three powerful ingredients for daily nutrition.",
+    "longDescription": "Potent superfood juice concentrate combining three powerful ingredients for comprehensive daily nutrition and wellness support.",
+    "keyBenefits": [
+      "Superfood Nutrition: Concentrated blend of nutrient-dense ingredients",
+      "Daily Wellness: Complete nutritional support",
+      "Antioxidant Power: High ORAC value for cellular protection",
+      "Energy Support: Natural energy from whole foods",
+      "Immune Boost: Strengthens natural immunity",
+      "Digestive Health: Supports healthy digestion"
+    ],
+    "specifications": {
+      "volume": "500ml bottle",
+      "concentration": "10:1 superfood concentrate",
+      "servings": "16 servings per bottle"
+    },
+    "features": [
+      "Triple superfood blend",
+      "Cold-pressed extraction",
+      "No added sugars",
+      "Concentrated formula",
+      "Rich flavor profile",
+      "Glass bottle packaging"
+    ],
+    "usage": "Mix 2 tablespoons with water or juice daily. Best taken in the morning for optimal energy support.",
+    "image": "/Angelo Pictures/TRIPLEX JUICE.jpg",
+    "video": "/Angelo videos/Triplex Juice.mp4",
+    "goal": ["nutrition", "energy", "immunity", "wellness"],
+    "format": "liquid",
+    "badges": ["Superfood", "No Added Sugar", "Cold-Pressed"]
+  },
+  {
+    "id": "vigor-cream",
+    "title": "Vigor Revitalizing Cream",
+    "category": "Beauty & Skin Care",
+    "description": "Advanced revitalizing cream for skin renewal, hydration, and anti-aging benefits.",
+    "longDescription": "Luxurious revitalizing cream formulated with advanced peptides and natural extracts for comprehensive skin renewal and anti-aging benefits.",
+    "keyBenefits": [
+      "Skin Renewal: Promotes cellular regeneration",
+      "Deep Hydration: Long-lasting moisture retention",
+      "Anti-aging: Reduces fine lines and wrinkles",
+      "Firming: Improves skin elasticity and firmness",
+      "Brightening: Evens skin tone and reduces dark spots",
+      "Protection: Shields against environmental damage"
+    ],
+    "specifications": {
+      "weight": "50g per jar",
+      "texture": "Rich, luxurious cream",
+      "application": "Face and neck use"
+    },
+    "features": [
+      "Advanced peptide complex",
+      "Natural botanical extracts",
+      "Hyaluronic acid",
+      "Vitamin C and E",
+      "Non-comedogenic formula",
+      "Dermatologist tested"
+    ],
+    "usage": "Apply to clean face and neck morning and evening. Gently massage until fully absorbed.",
+    "image": "/Angelo Pictures/VIGOR CREAM.jpg",
+    "video": "/Angelo videos/Vigor Cream.mp4",
+    "goal": ["anti-aging", "skin health", "hydration", "daily care"],
+    "format": "cream",
+    "badges": ["Dermatologist Tested", "Anti-Aging", "Peptide Complex"]
+  },
+  {
+    "id": "white-tea-seabuckthorn-sod-toothpaste",
+    "title": "White Tea Seabuckthorn SOD Toothpaste",
+    "category": "Beauty & Skin Care",
+    "description": "Premium toothpaste with white tea extract, seabuckthorn oil, and SOD for complete oral care.",
+    "longDescription": "Revolutionary toothpaste combining white tea extract, seabuckthorn fruit oil, and SOD (Superoxide Dismutase) for comprehensive oral health protection and anti-aging benefits.",
+    "keyBenefits": [
+      "Cavity Prevention: White tea extract prevents tooth decay",
+      "Gum Health: Strengthens gums and reduces bleeding",
+      "Fresh Breath: Long-lasting natural freshness",
+      "Anti-inflammatory: Reduces oral inflammation",
+      "Healing: Accelerates healing of oral ulcers",
+      "Immunity: Enhances oral immunity by 5 times"
+    ],
+    "specifications": {
+      "weight": "150g per tube",
+      "mainIngredients": "White Tea Extract, Seabuckthorn Oil, SOD, Xylitol",
+      "formula": "Natural herbal essence with patented recipe"
+    },
+    "features": [
+      "White tea extract for antibacterial action",
+      "Seabuckthorn oil for healing",
+      "SOD for anti-aging protection",
+      "Xylitol for natural cavity prevention",
+      "High cleaning silicon for gentle whitening",
+      "Chinese herbal ingredients"
+    ],
+    "usage": "Use twice daily for brushing teeth. The unique formula provides long-term protection and deep cleaning.",
+    "image": "/Angelo Pictures/WHITE TEA SEABUCKTHORN SOD TOOTHPASTE.jpg",
+    "video": "/Angelo videos/White tea Seabuckthorn Sod Toothpaste.mp4",
+    "goal": ["oral health", "anti-aging", "natural care", "immunity"],
+    "format": "paste",
+    "badges": ["Herbal Formula", "SOD Technology", "Whitening"]
+  },
+  {
+    "id": "yile-sugar-balance-tablets",
+    "title": "Yile Sugar Balance Tablets",
+    "category": "Nutritional Health",
+    "description": "Natural blood sugar support tablets for healthy glucose metabolism and energy balance.",
+    "longDescription": "Advanced herbal formula designed to support healthy blood sugar levels and promote balanced glucose metabolism for sustained energy and wellness.",
+    "keyBenefits": [
+      "Blood Sugar Support: Helps maintain healthy glucose levels",
+      "Metabolism Support: Promotes healthy glucose metabolism",
+      "Energy Balance: Provides sustained energy throughout the day",
+      "Natural Formula: Plant-based ingredients for gentle support",
+      "Digestive Health: Supports healthy digestion",
+      "Weight Management: Assists in healthy weight maintenance"
+    ],
+    "specifications": {
+      "servingSize": "2 tablets daily",
+      "tabletCount": "60 tablets per bottle",
+      "duration": "30-day supply",
+      "formula": "Natural herbal blend"
+    },
+    "features": [
+      "Natural herbal ingredients",
+      "Easy-to-swallow tablets",
+      "No artificial additives",
+      "Third-party tested",
+      "GMP certified facility",
+      "Vegetarian formula"
+    ],
+    "usage": "Take 2 tablets daily with meals for optimal blood sugar support and energy balance.",
+    "image": "/Angelo Pictures/YILE SUGAR BALANCE TABLETS.jpg",
+    "video": "/Angelo videos/Triplex Juice.mp4",
+    "goal": ["blood sugar support", "metabolism", "energy balance", "wellness"],
+    "format": "tablet",
+    "badges": ["Natural", "Blood Sugar Support", "Herbal Formula"]
+  },
+  {
+    "id": "seabuckthorn-sod-rejuvenating-body-lotion",
+    "title": "Seabuckthorn SOD Rejuvenating Body Lotion",
+    "category": "Beauty & Skin Care",
+    "description": "Advanced body lotion with SOD and seabuckthorn for anti-aging and skin rejuvenation.",
+    "longDescription": "Premium body lotion enhanced with SOD (Superoxide Dismutase) and seabuckthorn oil for powerful anti-aging benefits and comprehensive skin rejuvenation.",
+    "keyBenefits": [
+      "Anti-aging Protection: SOD fights free radicals and aging",
+      "Skin Rejuvenation: Promotes cellular renewal and repair",
+      "Deep Moisturization: Long-lasting hydration for all skin types",
+      "Antioxidant Power: Protects against environmental damage",
+      "Firming: Improves skin elasticity and firmness",
+      "Nourishing: Rich in vitamins and essential nutrients"
+    ],
+    "specifications": {
+      "volume": "200ml per bottle",
+      "texture": "Lightweight, fast-absorbing",
+      "formula": "SOD and seabuckthorn enhanced"
+    },
+    "features": [
+      "SOD enhancement technology",
+      "Seabuckthorn oil infusion",
+      "Anti-aging peptides",
+      "Fast-absorbing formula",
+      "Non-greasy texture",
+      "Dermatologist tested"
+    ],
+    "usage": "Apply to clean skin after shower or as needed. Massage gently until fully absorbed for best results.",
+    "image": "/Angelo Pictures/SEABUCKTHORN SOD REJUVENATING BODY LOTION.jpg",
+    "video": "/Angelo videos/Sea Buckthorn Oil.mp4",
+    "goal": ["anti-aging", "skin rejuvenation", "moisturization", "cellular protection"],
+    "format": "cream",
+    "badges": ["SOD Enhanced", "Anti-Aging", "Dermatologist Tested"]
   },
   {
     "id": "bovine-bone-collagen",
     "title": "Bovine Bone Collagen Supplement",
-    "category": "Supplement Products",
+    "category": "Nutritional Health",
     "description": "Premium bovine bone collagen for joint health, skin elasticity, and bone strength.",
     "longDescription": "High-quality bovine bone collagen supplement providing essential amino acids for joint health, skin elasticity, and bone strength support.",
     "keyBenefits": [
@@ -203,7 +753,7 @@
       "No artificial additives"
     ],
     "usage": "Mix 1 scoop with water, coffee, or smoothie daily. Best taken on an empty stomach for optimal absorption.",
-    "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg",
+    "image": "/Angelo Pictures/BOVINE BONE COLLAGEN.jpg",
     "video": "/Angelo videos/Bovine Bone Collagen.mp4",
     "goal": ["joint health", "skin health", "bone strength", "anti-aging"],
     "format": "powder",
@@ -212,7 +762,7 @@
   {
     "id": "cordyceps-sinensis-capsule",
     "title": "Cordyceps Sinensis Energy Capsule",
-    "category": "Supplement Products",
+    "category": "Nutritional Health",
     "description": "Premium cordyceps mushroom extract for natural energy, endurance, and respiratory health.",
     "longDescription": "Pure cordyceps sinensis mushroom extract capsules providing natural energy enhancement, improved endurance, and respiratory system support.",
     "keyBenefits": [
@@ -238,7 +788,7 @@
       "Sustainable sourcing"
     ],
     "usage": "Take 2 capsules daily with meals for sustained energy and endurance support.",
-    "image": "https://images.pexels.com/photos/3683107/pexels-photo-3683107.jpeg",
+    "image": "/Angelo Pictures/CORDYCEPS SINENSIS CAPSULE.jpg",
     "video": "/Angelo videos/Cordyceps Sinensis Capsule.mp4",
     "goal": ["energy", "endurance", "respiratory health", "immunity"],
     "format": "capsule",
@@ -247,7 +797,7 @@
   {
     "id": "daily-care-tooth-paste",
     "title": "Daily Care Natural Toothpaste",
-    "category": "Daily Care",
+    "category": "Beauty & Skin Care",
     "description": "Natural fluoride-free toothpaste with herbal extracts for complete oral care and fresh breath.",
     "longDescription": "Premium natural toothpaste formulated with herbal extracts and natural ingredients for comprehensive oral care without harsh chemicals.",
     "keyBenefits": [
@@ -272,386 +822,10 @@
       "Eco-friendly packaging"
     ],
     "usage": "Use twice daily for brushing teeth. Safe for daily use and suitable for sensitive teeth.",
-    "image": "https://images.pexels.com/photos/298611/pexels-photo-298611.jpeg",
+    "image": "/Angelo Pictures/DAILY CARE TOOTH PASTE.jpg",
     "video": "/Angelo videos/Daily Care Tooth Paste IMG.mp4",
     "goal": ["oral health", "natural care", "daily wellness"],
-    "format": "topical",
+    "format": "paste",
     "badges": ["Fluoride-Free", "Natural", "SLS-Free"]
-  },
-  {
-    "id": "energy-spray",
-    "title": "Energy Boost Spray",
-    "category": "Supplement Products",
-    "description": "Fast-acting energy spray with natural ingredients for instant vitality and mental clarity.",
-    "longDescription": "Convenient sublingual energy spray delivering fast-acting natural ingredients for immediate energy boost and enhanced mental clarity.",
-    "keyBenefits": [
-      "Instant Energy: Fast-acting sublingual absorption",
-      "Mental Clarity: Enhances focus and cognitive function",
-      "Natural Ingredients: Plant-based energy sources",
-      "Convenient: Portable spray for on-the-go use",
-      "No Crash: Sustained energy without jitters",
-      "Quick Absorption: Bypasses digestive system"
-    ],
-    "specifications": {
-      "volume": "30ml spray bottle",
-      "servings": "60 sprays per bottle",
-      "absorption": "Sublingual for fast action"
-    },
-    "features": [
-      "Sublingual spray delivery",
-      "Natural caffeine sources",
-      "B-vitamin complex",
-      "Portable bottle design",
-      "Sugar-free formula",
-      "Fast-acting ingredients"
-    ],
-    "usage": "Spray 2-3 pumps under tongue, hold for 30 seconds before swallowing. Use as needed for energy boost.",
-    "image": "https://images.pexels.com/photos/5938567/pexels-photo-5938567.jpeg",
-    "video": "/Angelo videos/Energy Spray.mp4",
-    "goal": ["energy", "focus", "mental clarity"],
-    "format": "spray",
-    "badges": ["Sugar-Free", "Natural", "Fast-Acting"]
-  },
-  {
-    "id": "protein-powder",
-    "title": "Premium Protein Powder",
-    "category": "Supplement Products",
-    "description": "High-quality protein powder for muscle building, recovery, and daily nutrition support.",
-    "longDescription": "Premium protein powder blend designed for optimal muscle building, post-workout recovery, and daily nutritional support with complete amino acid profile.",
-    "keyBenefits": [
-      "Muscle Building: Complete amino acid profile for muscle growth",
-      "Recovery Support: Accelerates post-workout recovery",
-      "Weight Management: Supports healthy weight goals",
-      "Digestive Health: Easy to digest protein sources",
-      "Energy Support: Sustained energy throughout the day",
-      "Nutritional Support: Fills daily protein requirements"
-    ],
-    "specifications": {
-      "servingSize": "1 scoop (30g)",
-      "protein": "25g per serving",
-      "servings": "30 servings per container",
-      "source": "Whey and plant protein blend"
-    },
-    "features": [
-      "Complete amino acid profile",
-      "Fast and slow-release proteins",
-      "Natural flavoring",
-      "Easy mixing formula",
-      "Third-party tested",
-      "No artificial fillers"
-    ],
-    "usage": "Mix 1 scoop with 8-10oz of water or milk. Best consumed post-workout or between meals.",
-    "image": "https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg",
-    "video": "/Angelo videos/Protein Powder.mp4",
-    "goal": ["muscle building", "recovery", "nutrition", "energy"],
-    "format": "powder",
-    "badges": ["Third-Party Tested", "Complete Protein", "Natural"]
-  },
-  {
-    "id": "seabuckthorn-refreshing-antiperspirant",
-    "title": "Seabuckthorn Refreshing Antiperspirant",
-    "category": "Daily Care",
-    "description": "Natural roll-on antiperspirant with seabuckthorn oil, witch hazel, and golden chamomile.",
-    "longDescription": "Combat body odor naturally with advanced antiperspirant featuring seabuckthorn fruit oil, North American witch hazel, and golden chamomile for all-day freshness.",
-    "keyBenefits": [
-      "Odor Control: Inhibits bacterial growth and reduces odor from source",
-      "Natural Formula: Plant-based ingredients for gentle protection",
-      "Long-lasting: All-day freshness and protection",
-      "Skin Care: Moisturizing and skin repairing properties",
-      "Anti-inflammatory: Soothes sensitive underarm skin",
-      "Safe Formula: Suitable for sensitive skin types"
-    ],
-    "specifications": {
-      "weight": "50g per bottle",
-      "application": "Roll-on design",
-      "formula": "Aluminum-free natural formula"
-    },
-    "features": [
-      "Seabuckthorn fruit oil for skin care",
-      "North American witch hazel",
-      "Golden chamomile extract",
-      "Portable roll-on design",
-      "Quick-drying formula",
-      "Long-lasting protection"
-    ],
-    "usage": "Apply to clean, dry skin on underarms. Can be used on feet and other areas prone to odor.",
-    "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg",
-    "video": "/Angelo videos/Sea Buckthorn Refreshing Antiperspirant.mp4",
-    "goal": ["daily care", "natural protection", "skin health"],
-    "format": "topical",
-    "badges": ["Aluminum-Free", "Natural", "Sensitive Skin"]
-  },
-  {
-    "id": "seabuckthorn-sanitary-napkin",
-    "title": "Seabuckthorn Sanitary Napkin",
-    "category": "Detox & Sanitary",
-    "description": "Premium sanitary napkins with seabuckthorn oil for enhanced comfort and natural protection.",
-    "longDescription": "Revolutionary sanitary napkins infused with seabuckthorn oil providing superior comfort, natural antibacterial protection, and skin-caring properties.",
-    "keyBenefits": [
-      "Enhanced Comfort: Ultra-soft materials for maximum comfort",
-      "Natural Protection: Seabuckthorn oil provides antibacterial benefits",
-      "Skin Care: Nourishes and protects intimate skin",
-      "Superior Absorption: Advanced core technology",
-      "Odor Control: Natural odor elimination",
-      "Hypoallergenic: Gentle on sensitive skin"
-    ],
-    "specifications": {
-      "count": "10 napkins per pack",
-      "absorption": "Heavy flow protection",
-      "materials": "Organic cotton top sheet with seabuckthorn infusion"
-    },
-    "features": [
-      "Seabuckthorn oil infusion",
-      "Organic cotton top sheet",
-      "Advanced absorption core",
-      "Breathable back sheet",
-      "Individual wrapping",
-      "Eco-friendly materials"
-    ],
-    "usage": "Use during menstrual cycle for enhanced comfort and natural protection. Change every 4-6 hours.",
-    "image": "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg",
-    "video": "/Angelo videos/Sea Buckthorn Sanitory Napkin.mp4",
-    "goal": ["feminine care", "comfort", "natural protection"],
-    "format": "sanitary",
-    "badges": ["Organic Cotton", "Hypoallergenic", "Eco-Friendly"]
-  },
-  {
-    "id": "seabuckthorn-fruit-oil",
-    "title": "Pure Seabuckthorn Fruit Oil",
-    "category": "Supplement Products",
-    "description": "100% pure seabuckthorn fruit oil for internal and external health benefits.",
-    "longDescription": "Premium cold-pressed seabuckthorn fruit oil rich in vitamins, antioxidants, and essential fatty acids for comprehensive health support.",
-    "keyBenefits": [
-      "Antioxidant Power: High concentration of vitamins C and E",
-      "Skin Health: Promotes healthy, radiant skin",
-      "Immune Support: Strengthens natural immunity",
-      "Heart Health: Supports cardiovascular function",
-      "Digestive Health: Soothes digestive tract",
-      "Anti-inflammatory: Reduces inflammation throughout body"
-    ],
-    "specifications": {
-      "volume": "30ml bottle",
-      "purity": "100% pure seabuckthorn fruit oil",
-      "extraction": "Cold-pressed for maximum potency"
-    },
-    "features": [
-      "Cold-pressed extraction",
-      "100% pure fruit oil",
-      "Rich in omega fatty acids",
-      "High vitamin content",
-      "Versatile use (internal/external)",
-      "Dark glass bottle protection"
-    ],
-    "usage": "Take 1-2 teaspoons daily with meals or apply topically to skin for targeted benefits.",
-    "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
-    "video": "/Angelo videos/Sea Buckthorn Fruit Oil.mp4",
-    "goal": ["antioxidant", "skin health", "immunity", "heart health"],
-    "format": "oil",
-    "badges": ["100% Pure", "Cold-Pressed", "Organic"]
-  },
-  {
-    "id": "seabuckthorn-cordyceps-ginseng-coffee",
-    "title": "Seabuckthorn Cordyceps Ginseng Coffee",
-    "category": "Supplement Products",
-    "description": "Functional coffee blend with seabuckthorn, cordyceps, and ginseng for energy and wellness.",
-    "longDescription": "Premium coffee blend enhanced with seabuckthorn, cordyceps mushroom, and ginseng for sustained energy, cognitive support, and overall wellness.",
-    "keyBenefits": [
-      "Sustained Energy: Natural caffeine with adaptogenic support",
-      "Cognitive Enhancement: Improves focus and mental clarity",
-      "Stress Adaptation: Ginseng helps body manage stress",
-      "Immune Support: Cordyceps strengthens immunity",
-      "Antioxidant Rich: Seabuckthorn provides powerful antioxidants",
-      "Smooth Energy: No jitters or energy crashes"
-    ],
-    "specifications": {
-      "servingSize": "1 packet per cup",
-      "caffeine": "Natural coffee caffeine",
-      "packets": "20 individual packets per box"
-    },
-    "features": [
-      "Premium coffee beans",
-      "Cordyceps mushroom extract",
-      "Korean red ginseng",
-      "Seabuckthorn fruit powder",
-      "Individual serving packets",
-      "Instant preparation"
-    ],
-    "usage": "Mix 1 packet with hot water, stir well. Enjoy 1-2 cups daily for optimal energy and wellness benefits.",
-    "image": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg",
-    "video": "/Angelo videos/Sea Buckthorn Cordyceps Ginseng Peptide Coffe.mp4",
-    "goal": ["energy", "focus", "stress management", "immunity"],
-    "format": "powder",
-    "badges": ["Adaptogenic", "Natural Caffeine", "Functional Coffee"]
-  },
-  {
-    "id": "seabuckthorn-oil",
-    "title": "Seabuckthorn Seed Oil",
-    "category": "Daily Care",
-    "description": "Pure seabuckthorn seed oil for skin care, hair health, and natural beauty enhancement.",
-    "longDescription": "Premium cold-pressed seabuckthorn seed oil rich in essential fatty acids and vitamins for comprehensive skin and hair care.",
-    "keyBenefits": [
-      "Skin Regeneration: Promotes healthy skin cell renewal",
-      "Anti-aging: Reduces fine lines and wrinkles",
-      "Hair Health: Nourishes scalp and strengthens hair",
-      "Moisturizing: Deep hydration for dry skin",
-      "Healing: Accelerates wound healing and skin repair",
-      "UV Protection: Natural protection against environmental damage"
-    ],
-    "specifications": {
-      "volume": "30ml bottle",
-      "purity": "100% pure seabuckthorn seed oil",
-      "extraction": "Cold-pressed for maximum potency"
-    },
-    "features": [
-      "Cold-pressed extraction",
-      "Rich in omega 3, 6, 7, 9",
-      "High vitamin E content",
-      "Versatile application",
-      "Non-comedogenic",
-      "Dark glass bottle"
-    ],
-    "usage": "Apply 2-3 drops to face and neck, or add to hair for deep conditioning treatment.",
-    "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
-    "video": "/Angelo videos/Sea Buckthorn Oil.mp4",
-    "goal": ["skin health", "anti-aging", "hair health", "natural beauty"],
-    "format": "oil",
-    "badges": ["100% Pure", "Cold-Pressed", "Multi-Use"]
-  },
-  {
-    "id": "sod-seabuckthorn-krill-oligopeptide",
-    "title": "SOD Seabuckthorn Krill Oligopeptide Complex",
-    "category": "Supplement Products",
-    "description": "Advanced anti-aging complex with SOD, seabuckthorn, and krill oil for cellular protection.",
-    "longDescription": "Revolutionary anti-aging supplement combining SOD (Superoxide Dismutase), seabuckthorn extract, and krill oil oligopeptides for comprehensive cellular protection and longevity support.",
-    "keyBenefits": [
-      "Cellular Protection: SOD neutralizes harmful free radicals",
-      "Anti-aging: Slows cellular aging process",
-      "Brain Health: Krill oil supports cognitive function",
-      "Heart Health: Omega-3s support cardiovascular system",
-      "Skin Health: Promotes youthful, healthy skin",
-      "Longevity: Supports healthy aging process"
-    ],
-    "specifications": {
-      "servingSize": "2 capsules daily",
-      "sod": "100mg SOD per serving",
-      "krillOil": "500mg Antarctic krill oil",
-      "capsuleCount": "60 capsules per bottle"
-    },
-    "features": [
-      "Pharmaceutical-grade SOD",
-      "Antarctic krill oil",
-      "Seabuckthorn extract",
-      "Oligopeptide technology",
-      "Enteric-coated capsules",
-      "Maximum bioavailability"
-    ],
-    "usage": "Take 2 capsules daily with meals for optimal anti-aging and cellular protection benefits.",
-    "image": "https://images.pexels.com/photos/3683107/pexels-photo-3683107.jpeg",
-    "video": "/Angelo videos/SOD Seabuckthorn Krill Com Oligopeptide C.mp4",
-    "goal": ["anti-aging", "cellular health", "brain health", "longevity"],
-    "format": "capsule",
-    "badges": ["Pharmaceutical Grade", "Antarctic Krill", "Anti-Aging"]
-  },
-  {
-    "id": "triplex-juice",
-    "title": "Triplex Superfood Juice",
-    "category": "Supplement Products",
-    "description": "Concentrated superfood juice blend with three powerful ingredients for daily nutrition.",
-    "longDescription": "Potent superfood juice concentrate combining three powerful ingredients for comprehensive daily nutrition and wellness support.",
-    "keyBenefits": [
-      "Superfood Nutrition: Concentrated blend of nutrient-dense ingredients",
-      "Daily Wellness: Complete nutritional support",
-      "Antioxidant Power: High ORAC value for cellular protection",
-      "Energy Support: Natural energy from whole foods",
-      "Immune Boost: Strengthens natural immunity",
-      "Digestive Health: Supports healthy digestion"
-    ],
-    "specifications": {
-      "volume": "500ml bottle",
-      "concentration": "10:1 superfood concentrate",
-      "servings": "16 servings per bottle"
-    },
-    "features": [
-      "Triple superfood blend",
-      "Cold-pressed extraction",
-      "No added sugars",
-      "Concentrated formula",
-      "Rich flavor profile",
-      "Glass bottle packaging"
-    ],
-    "usage": "Mix 2 tablespoons with water or juice daily. Best taken in the morning for optimal energy support.",
-    "image": "https://images.pexels.com/photos/1435735/pexels-photo-1435735.jpeg",
-    "video": "/Angelo videos/Triplex Juice.mp4",
-    "goal": ["nutrition", "energy", "immunity", "wellness"],
-    "format": "liquid",
-    "badges": ["Superfood", "No Added Sugar", "Cold-Pressed"]
-  },
-  {
-    "id": "vigor-cream",
-    "title": "Vigor Revitalizing Cream",
-    "category": "Daily Care",
-    "description": "Advanced revitalizing cream for skin renewal, hydration, and anti-aging benefits.",
-    "longDescription": "Luxurious revitalizing cream formulated with advanced peptides and natural extracts for comprehensive skin renewal and anti-aging benefits.",
-    "keyBenefits": [
-      "Skin Renewal: Promotes cellular regeneration",
-      "Deep Hydration: Long-lasting moisture retention",
-      "Anti-aging: Reduces fine lines and wrinkles",
-      "Firming: Improves skin elasticity and firmness",
-      "Brightening: Evens skin tone and reduces dark spots",
-      "Protection: Shields against environmental damage"
-    ],
-    "specifications": {
-      "weight": "50g per jar",
-      "texture": "Rich, luxurious cream",
-      "application": "Face and neck use"
-    },
-    "features": [
-      "Advanced peptide complex",
-      "Natural botanical extracts",
-      "Hyaluronic acid",
-      "Vitamin C and E",
-      "Non-comedogenic formula",
-      "Dermatologist tested"
-    ],
-    "usage": "Apply to clean face and neck morning and evening. Gently massage until fully absorbed.",
-    "image": "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg",
-    "video": "/Angelo videos/Vigor Cream.mp4",
-    "goal": ["anti-aging", "skin health", "hydration", "daily care"],
-    "format": "topical",
-    "badges": ["Dermatologist Tested", "Anti-Aging", "Peptide Complex"]
-  },
-  {
-    "id": "white-tea-seabuckthorn-sod-toothpaste",
-    "title": "White Tea Seabuckthorn SOD Toothpaste",
-    "category": "Detox & Sanitary",
-    "description": "Premium toothpaste with white tea extract, seabuckthorn oil, and SOD for complete oral care.",
-    "longDescription": "Revolutionary toothpaste combining white tea extract, seabuckthorn fruit oil, and SOD (Superoxide Dismutase) for comprehensive oral health protection and anti-aging benefits.",
-    "keyBenefits": [
-      "Cavity Prevention: White tea extract prevents tooth decay",
-      "Gum Health: Strengthens gums and reduces bleeding",
-      "Fresh Breath: Long-lasting natural freshness",
-      "Anti-inflammatory: Reduces oral inflammation",
-      "Healing: Accelerates healing of oral ulcers",
-      "Immunity: Enhances oral immunity by 5 times"
-    ],
-    "specifications": {
-      "weight": "150g per tube",
-      "mainIngredients": "White Tea Extract, Seabuckthorn Oil, SOD, Xylitol",
-      "formula": "Natural herbal essence with patented recipe"
-    },
-    "features": [
-      "White tea extract for antibacterial action",
-      "Seabuckthorn oil for healing",
-      "SOD for anti-aging protection",
-      "Xylitol for natural cavity prevention",
-      "High cleaning silicon for gentle whitening",
-      "Chinese herbal ingredients"
-    ],
-    "usage": "Use twice daily for brushing teeth. The unique formula provides long-term protection and deep cleaning.",
-    "image": "https://images.pexels.com/photos/298611/pexels-photo-298611.jpeg",
-    "video": "/Angelo videos/White tea Seabuckthorn Sod Toothpaste.mp4",
-    "goal": ["oral health", "anti-aging", "natural care", "immunity"],
-    "format": "topical",
-    "badges": ["Herbal Formula", "SOD Technology", "Whitening"]
   }
 ]

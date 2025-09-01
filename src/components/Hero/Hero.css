@@ -706,7 +706,7 @@
       rgba(139, 92, 246, 0.32)
       /* softer purple toward center */
     ),
-    url('/public/hero-bg.png');
+    url('/hero-bg.png');
   /* <-- put your image in public/assets/hero-bg.jpg */
 
   background-size: cover;
@@ -989,7 +989,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  background-image: url('/public/hero-bg.jpeg');
+  background-image: url('/hero-bg.jpeg');
   /* put image in public/assets/hero-bg.jpg */
   background-size: 100% 100%;
   background-position: center center;

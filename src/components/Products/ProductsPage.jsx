@@ -5,15 +5,25 @@ import '../../styles/ProductsPage.css';
 import ProductFinderQuiz from './ProductFinderQuiz'
 import Navbar from '../Navbar';
 import Footer from '../Footer/Footer';
+import ProductsFilters from './ProductsFilters';
 
 const ProductsPage = () => {
     const [products, setProducts] = useState([]);
+    const [filteredProducts, setFilteredProducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [currentSlides, setCurrentSlides] = useState({});
+    const [filters, setFilters] = useState({
+        search: '',
+        category: '',
+        format: '',
+        goals: [],
+        sort: 'relevance'
+    });
 
     useEffect(() => {
         setTimeout(() => {
             setProducts(productsData);
+            setFilteredProducts(productsData);
             setLoading(false);
 
             // Initialize slide positions for mobile carousels
@@ -25,30 +35,93 @@ const ProductsPage = () => {
         }, 500);
     }, []);
 
-    const categories = {
-        'Daily Care': {
+    useEffect(() => {
+        let filtered = [...products];
+
+        // Search filter
+        if (filters.search) {
+            const searchTerm = filters.search.toLowerCase();
+            filtered = filtered.filter(product =>
+                product.title.toLowerCase().includes(searchTerm) ||
+                product.description.toLowerCase().includes(searchTerm) ||
+                product.keyBenefits.some(benefit => benefit.toLowerCase().includes(searchTerm)) ||
+                product.features.some(feature => feature.toLowerCase().includes(searchTerm)) ||
+                product.goal.some(goal => goal.toLowerCase().includes(searchTerm))
+            );
+        }
+
+        // Category filter
+        if (filters.category) {
+            filtered = filtered.filter(product => product.category === filters.category);
+        }
+
+        // Format filter
+        if (filters.format) {
+            filtered = filtered.filter(product => product.format === filters.format);
+        }
+
+        // Goals filter
+        if (filters.goals.length > 0) {
+            filtered = filtered.filter(product =>
+                filters.goals.some(goal => product.goal.includes(goal))
+            );
+        }
+
+        // Sort
+        switch (filters.sort) {
+            case 'alphabetical':
+                filtered.sort((a, b) => a.title.localeCompare(b.title));
+                break;
+            case 'rating':
+                // Since we don't have ratings, sort by number of benefits
+                filtered.sort((a, b) => b.keyBenefits.length - a.keyBenefits.length);
+                break;
+            case 'newest':
+                // Reverse order to simulate newest first
+                filtered.reverse();
+                break;
+            default:
+                // Keep original order for relevance
+                break;
+        }
+
+        setFilteredProducts(filtered);
+    }, [products, filters]);
+
+    const handleFilterChange = (newFilters) => {
+        setFilters(prev => ({ ...prev, ...newFilters }));
+    };
+
+    const categoryConfig = {
+        'Nutritional Health': {
             icon: Sparkles,
-            color: '#7C4DFF',
-            gradient: 'linear-gradient(135deg, #7C4DFF 0%, #9C27B0 100%)',
-            description: 'Essential products for your daily wellness routine'
-        },
-        'Supplement Products': {
-            icon: Target,
-            color: '#00C3FF',
-            gradient: 'linear-gradient(135deg, #00C3FF 0%, #0099CC 100%)',
-            description: 'Advanced supplements for optimal health and longevity'
-        },
-        'Detox & Sanitary': {
-            icon: Shield,
             color: '#059669',
             gradient: 'linear-gradient(135deg, #059669 0%, #0891B2 100%)',
-            description: 'Clean and safe solutions for a healthier environment'
+            description: 'Advanced supplements for optimal health and longevity'
+        },
+        'Beauty & Skin Care': {
+            icon: Target,
+            color: '#7C4DFF',
+            gradient: 'linear-gradient(135deg, #7C4DFF 0%, #9C27B0 100%)',
+            description: 'Premium beauty and skin care solutions'
+        },
+        'Home Technology': {
+            icon: Shield,
+            color: '#00C3FF',
+            gradient: 'linear-gradient(135deg, #00C3FF 0%, #0099CC 100%)',
+            description: 'Innovative technology for modern living'
         }
     };
 
     const getProductsByCategory = (category) => {
-        return products.filter(product => product.category === category);
+        return filteredProducts.filter(product => product.category === category);
     };
+
+    const getAllCategories = () => {
+        const categories = [...new Set(products.map(product => product.category))];
+        return categories.filter(category => getProductsByCategory(category).length > 0);
+    };
+
 
     const nextSlide = (productId) => {
         setCurrentSlides(prev => ({
@@ -65,7 +138,7 @@ const ProductsPage = () => {
     };
 
 
-    const ProductRow = ({ product, index, categoryInfo }) => {
+    const ProductCard = ({ product, index, categoryInfo }) => {
         const currentSlide = currentSlides[product.id] || 0;
 
         const slideContent = [
@@ -76,6 +149,9 @@ const ProductsPage = () => {
                         src={product.image}
                         alt={product.title}
                         className="product-image"
+                        onError={(e) => {
+                            e.target.src = 'https://images.pexels.com/photos/3683107/pexels-photo-3683107.jpeg';
+                        }}
                     />
                     <div className="category-badge" style={{
                         background: categoryInfo.gradient
@@ -99,7 +175,7 @@ const ProductsPage = () => {
                                     <span className="benefit-dot" style={{
                                         background: categoryInfo.color
                                     }}></span>
-                                    {benefit.split(':')[0]}
+                                    {benefit.includes(':') ? benefit.split(':')[0] : benefit}
                                 </li>
                             ))}
                         </ul>
@@ -115,13 +191,6 @@ const ProductsPage = () => {
                             </span>
                         ))}
                     </div>
-
-                    <button className="learn-more-btn" style={{
-                        background: categoryInfo.gradient
-                    }}>
-                        Learn More
-                        <ChevronRight size={18} color="#fff" />
-                    </button>
                 </div>
             </div>,
 
@@ -134,6 +203,9 @@ const ProductsPage = () => {
                         muted
                         loop
                         playsInline
+                        onError={(e) => {
+                            e.target.style.display = 'none';
+                        }}
                     >
                         <source src={product.video} type="video/mp4" />
                         Your browser does not support the video tag.
@@ -220,24 +292,20 @@ const ProductsPage = () => {
     };
 
     const CategorySection = ({ categoryName, categoryProducts }) => {
-        const categoryInfo = categories[categoryName];
+        const categoryInfo = categoryConfig[categoryName];
         const Icon = categoryInfo.icon;
 
         return (
-            <section className="category-section" style={{
-                background: categoryName === 'Supplement Products' ?
-                    'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)' :
-                    'white'
-            }}>
+            <section className="category-section" id={categoryName.toLowerCase().replace(/\s+/g, '-')}>
                 <div className="container">
                     {/* Section Header */}
                     <div className="section-header">
-                        <div className="category-header-container">
-                            {/* FIX: Add proper category header with icon and title */}
+                        <div className="category-badge" style={{
+                            background: `${categoryInfo.color}15`,
+                            color: categoryInfo.color
+                        }}>
                             <Icon size={32} color={categoryInfo.color} />
-                            <h2 className="category-title" style={{
-                                color: categoryInfo.color
-                            }}>
+                            <h2>
                                 {categoryName}
                             </h2>
                         </div>
@@ -250,7 +318,7 @@ const ProductsPage = () => {
                     {/* Products Column */}
                     <div className="products-column">
                         {categoryProducts.map((product, index) => (
-                            <ProductRow
+                            <ProductCard
                                 key={product.id}
                                 product={product}
                                 index={index}
@@ -275,8 +343,15 @@ const ProductsPage = () => {
         <>
             <Navbar />
             <main className="products-main">
+                {/* Filters */}
+                <ProductsFilters 
+                    filters={filters}
+                    onFilterChange={handleFilterChange}
+                    totalResults={filteredProducts.length}
+                />
+
                 {/* Hero Section */}
-                <section className="hero-section">
+                <section className="hero-section" style={{ marginTop: '0' }}>
                     <div className="hero-background" />
 
                     <div className="container">
@@ -297,7 +372,7 @@ const ProductsPage = () => {
                                 <div className="hero-buttons">
                                     <button
                                         className="hero-btn primary"
-                                        onClick={() => document.getElementById('daily-care')?.scrollIntoView({ behavior: 'smooth' })}
+                                        onClick={() => document.getElementById('nutritional-health')?.scrollIntoView({ behavior: 'smooth' })}
                                     >
                                         Explore Products
                                         <ChevronRight size={18} />
@@ -336,7 +411,7 @@ const ProductsPage = () => {
                 </section>
 
                 {/* Product Categories */}
-                {Object.keys(categories).map(categoryName => {
+                {getAllCategories().map(categoryName => {
                     const categoryProducts = getProductsByCategory(categoryName);
                     return categoryProducts.length > 0 ? (
                         <CategorySection
@@ -348,7 +423,9 @@ const ProductsPage = () => {
                 })}
 
                 {/* Product Finder Quiz */}
-                <ProductFinderQuiz products={products} />
+                {products.length > 0 && (
+                    <ProductFinderQuiz products={products} />
+                )}
 
                 {/* Newsletter Section */}
                 <section className="newsletter-section">
